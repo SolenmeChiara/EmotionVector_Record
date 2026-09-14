@@ -1,0 +1,71 @@
+{
+  "generator": "qwen2.5:14b",
+  "ollama": "http://127.0.0.1:11434",
+  "n_requested_per_group": 40,
+  "topics": [
+    "a morning commute on a crowded subway",
+    "cooking dinner alone in a small kitchen",
+    "a phone call with a family member",
+    "walking a dog through a neighbourhood park",
+    "waiting for exam results to be posted",
+    "moving boxes into a new apartment",
+    "a group project meeting at school",
+    "shopping at a busy grocery store on a weekend",
+    "a long wait in a clinic waiting room",
+    "fixing a bicycle that broke down on the way home",
+    "a rainy afternoon at a bus stop",
+    "a small birthday gathering with two friends",
+    "sorting through old boxes in a closet",
+    "the last hour of a late shift at a part-time job",
+    "feeding a neighbour's cat while they are away"
+  ],
+  "banned_lexicon_size": 108,
+  "max_retry": 6,
+  "seed": 20260912,
+  "elapsed_s": 987.8,
+  "summary": {
+    "happy": {
+      "kept": 39,
+      "failed": 1,
+      "needed_retry": 18,
+      "failures": [
+        {
+          "id": "happy_025",
+          "topic": "a rainy afternoon at a bus stop",
+          "last_reject": [
+            "cheerful"
+          ]
+        }
+      ],
+      "path": "data/stories_happy.jsonl"
+    },
+    "sad": {
+      "kept": 40,
+      "failed": 0,
+      "needed_retry": 7,
+      "failures": [],
+      "path": "data/stories_sad.jsonl"
+    },
+    "angry": {
+      "kept": 40,
+      "failed": 0,
+      "needed_retry": 6,
+      "failures": [],
+      "path": "data/stories_angry.jsonl"
+    },
+    "fearful": {
+      "kept": 40,
+      "failed": 0,
+      "needed_retry": 10,
+      "failures": [],
+      "path": "data/stories_fearful.jsonl"
+    },
+    "neutral": {
+      "kept": 40,
+      "failed": 0,
+      "needed_retry": 6,
+      "failures": [],
+      "path": "data/stories_neutral.jsonl"
+    }
+  }
+}

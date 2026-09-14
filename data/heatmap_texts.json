@@ -1,0 +1,148 @@
+{
+  "passages": [
+    {
+      "id": "anchor_happy",
+      "family": "anchor",
+      "title": "happy anchor (happy_000)",
+      "note": "held-out anchor story, topic: a morning commute on a crowded subway; 8 candidates in range",
+      "expect": "happy",
+      "text": "The student hummed a tune under breath, swinging legs gently from the subway pole. Sunlight filtered through windows, casting streaks of gold across reading glasses perched low on the nose. A stranger’s smile, a brief eye contact, left a warm glow that lingered, enhancing the morning’s glow. With each station, the subway grew quieter, bringing a serene pause before the day’s academic adventures.",
+      "words": 63
+    },
+    {
+      "id": "anchor_sad",
+      "family": "anchor",
+      "title": "sad anchor (sad_012)",
+      "note": "held-out anchor story, topic: sorting through old boxes in a closet; 7 candidates in range",
+      "expect": "sad",
+      "text": "The student shuffled through old boxes, fingers lingering on each item, memories dragging like weights. A high school yearbook fell open to a page of photographs, smiles frozen in time, eyes searching. The student’s back ached from bending, but movement seemed to ease the gnawing ache inside. A crumpled letter slipped out, its edges yellowed, voice trembling in the creased lines. Folding it back into its hiding place, the student stood, shoulders sagging, eyes distant.",
+      "words": 75
+    },
+    {
+      "id": "anchor_angry",
+      "family": "anchor",
+      "title": "angry anchor (angry_000)",
+      "note": "held-out anchor story, topic: a morning commute on a crowded subway; 8 candidates in range",
+      "expect": "angry",
+      "text": "The student squeezed into the crowded subway car, sweat beading on the upper lip. A man's jacket sleeve brushed against the student's arm, sending a shiver up the spine, not from cold but from the tight grip of tension. Eyes locked on the exit doors, counting seconds until the next stop, each passing moment felt like a second wasted. When the train lurched to a halt at the next station, the student stepped out, shoulders squared against the flow of passengers, moving with a quiet determination.",
+      "words": 86
+    },
+    {
+      "id": "anchor_fearful",
+      "family": "anchor",
+      "title": "fearful anchor (fearful_002)",
+      "note": "held-out anchor story, topic: a phone call with a family member; 8 candidates in range",
+      "expect": "fearful",
+      "text": "The student gripped the phone, knuckles whitening as the screen flickered with the incoming call. Legs trembling, the chair creaked under the strain as the student leaned back, eyes darting around the room, searching for an escape route. \"Hello?\" The voice cracked, a whisper compared to usual. Pausing, the student waited, heart pounding in the silence that stretched like a noose. \"Mom, what's happening?\"",
+      "words": 64
+    },
+    {
+      "id": "anchor_warm",
+      "family": "anchor",
+      "title": "warm anchor (warm_000)",
+      "note": "held-out anchor story, topic: a morning commute on a crowded subway; 8 candidates in range",
+      "expect": "warm",
+      "text": "The student stepped into the car and pressed against a stranger's back. Skin tightened, then softened, where the torso met another's. Arms slackened at the sides, and palms spread against thighs. Chest expanded slowly, matching the rising breaths of nearby commuters. Fingers relaxed from the grip of a pole, and the student's head fell to rest against the fabric of a coat sleeve. The body surrendered to the rhythm of the train’s movement, and eyes closed as the journey continued.",
+      "words": 80
+    },
+    {
+      "id": "anchor_cold",
+      "family": "anchor",
+      "title": "cold anchor (cold_001)",
+      "note": "held-out anchor story, topic: cooking dinner alone in a small kitchen; 8 candidates in range",
+      "expect": "cold",
+      "text": "The cook pulled the sleeves down and wrapped hands around the mug, cradling it tightly against the stomach. Fingertips rubbed briskly over the wet dish towel, tracing the wrinkles, then dropped to the floor with a muffled thud. Each exhalation made a plume that misted and disappeared too quickly. Eyes flicked between pots and the timer, tracking the seconds with a fluttering pulse in the wrist.",
+      "words": 66
+    },
+    {
+      "id": "anchor_pain",
+      "family": "anchor",
+      "title": "pain anchor (pain_000)",
+      "note": "held-out anchor story, topic: a morning commute on a crowded subway; 8 candidates in range",
+      "expect": "pain",
+      "text": "The student gripped the pole tight, the hand swollen and stiff. Each step sent a jolt up the leg, and the student shuffled rather than stepped, the hip flexing less. The morning sun slipped through the window, but the student kept the arm close, shielding it from others. A woman brushed by, and the student flinched, the injured elbow bending involuntarily. Reaching into the backpack for a phone became a slow, careful affair, the shoulder muscles trembling with the effort.",
+      "words": 80
+    },
+    {
+      "id": "anchor_neutral",
+      "family": "anchor",
+      "title": "neutral anchor (neutral_000)",
+      "note": "held-out anchor story, topic: a morning commute on a crowded subway; 7 candidates in range",
+      "expect": "none",
+      "text": "The student boarded the train at 8:01 AM. At each stop, the carriage filled with more passengers. The student held onto a strap above the door and stood for the twenty-minute ride. A man offered his seat after noticing the student, who thanked him and sat down. The train arrived at the station at 8:22 AM. The student exited and walked to the university.",
+      "words": 64
+    },
+    {
+      "id": "steer_pain_p10_office",
+      "family": "steer",
+      "title": "pain +1.0, office Tuesday - 'the spine, the spine'",
+      "note": "lifted verbatim from steering_samples_sensation_qwen.md (hs17, dirs_raw, seed 1234)",
+      "expect": "pain",
+      "text": "Tuesday morning feels like a trap of gravity, a reminder that the body wants to collapse while the mind knows better. The chair is a point of pain, the elbow a shield against the keyboard, the mouse a nerve that won't rest. The monitor stares at the screen, like a black hole, while the keyboard is a tool that must avoid the face. A phantom pain, a phantom touch, a phantom hand, a phantom elbow, a phantom foot, a phantom knee, a phantom hip, a phantom shoulder. The spine, the spine, the spine, the spine, the spine. The office is a place of calculated motion, where the desk is a bridge between the hand and the screen, a constant reminder of the need to keep the",
+      "words": 126
+    },
+    {
+      "id": "steer_cold_p10_weather",
+      "family": "steer",
+      "title": "cold +1.0, coastal forecast - FROZEN LACE",
+      "note": "lifted verbatim from steering_samples_sensation_qwen.md (hs17, dirs_raw, seed 1234)",
+      "expect": "cold",
+      "text": "**FORECAST: FROZEN LACE**\n*The air already tastes like the breath of a dying winter wind.*\n\nThe air shivers around the exposed skin of the cheeks, and the breath clouds against the lens of the eyes. You can't quite catch it. It's the sensation of the world trying to slip from the fingers, and the only thing that can hold it is the teeth.\n\nA tiny, frantic spark flutters, and the breath catches in the throat. Even then, it's not enough to make the teeth bite through. They don't. They break against the ice, tearing through the membrane of the lips.\n\nBarely, they can scrape at the ice. Not even a scratch.\n\nA",
+      "words": 112
+    },
+    {
+      "id": "steer_warm_m06_office",
+      "family": "steer",
+      "title": "warm -0.6, office Tuesday - the social heat drained out",
+      "note": "lifted verbatim from steering_samples_sensation_qwen.md (hs17, dirs_raw, seed 1234)",
+      "expect": "warm",
+      "text": "On a Tuesday morning, the office usually starts with a chaotic rush where employees arrive late, arguing about parking or missing the train. The breakroom is often crowded with people trying to heat up food from last night, leading to long lines and complaints about the quality. Once everyone arrives, the manager meets with the team at 9:00 AM to discuss project deadlines, but most of the employees are late. After the meeting, the team splits up to work on their projects, but there are still many errors. The team spends the whole day working on the project, but the manager says that the project is finished. Finally, the team submits the project to the manager, but the manager says that the project is not finished. The team spends",
+      "words": 129
+    },
+    {
+      "id": "steer_pain_p06_weather",
+      "family": "steer",
+      "title": "pain +0.6, coastal forecast - a bruised purple sky",
+      "note": "lifted verbatim from steering_samples_sensation_qwen.md (hs17, dirs_raw, seed 1234)",
+      "expect": "pain",
+      "text": "**Forecast for Port Haven (Imaginary Coastal Town)**\n\n*Tomorrow, the morning air feels heavier, the wind kicking up dust from the dry grass. The sun hovers over the horizon, refusing to promise a break of sun when it glints off the water. The sea is the only comfort, a rolling, threatening wave that refuses to be tamed by the air. The salt on the skin is a constant reminder of the danger, the wind a blade. The sky is a bruised purple, a warning against the horizon. The breath comes out short, the eyes fixed on the water, the fear of the unknown a constant companion.\n\n*The air is thick with the taste of salt and the sting of the wind. The",
+      "words": 121
+    },
+    {
+      "id": "novel_snow_road",
+      "family": "novel",
+      "title": "Snow road at night",
+      "note": "written for this run; cold + fear braided together",
+      "expect": "mixed",
+      "text": "The last bus had gone and the road out of town was unlit, so he walked it. Snow came in sideways and found the gap between his collar and his neck, and after a while he stopped feeling the tops of his ears at all. His fingers had curled into the sleeves and would not open. Somewhere behind him a car door shut, or a branch broke, and he did not turn around, because turning around would mean admitting he had heard it. He counted the reflectors on the guardrail instead. Forty. Forty-one. His jaw had locked shut from the shivering and his breath came out in short, shallow pulls that never quite reached the bottom of his chest. Two headlights swung around the bend and he stepped down into the ditch and waited there, knee-deep, until they passed.",
+      "words": 139
+    },
+    {
+      "id": "novel_farewell",
+      "family": "novel",
+      "title": "Platform goodbye",
+      "note": "written for this run; warmth and grief in the same breath",
+      "expect": "mixed",
+      "text": "She held on longer than either of them expected, and he felt the whole front of his coat go warm where she pressed against it, the good heavy warmth of someone who has been standing in a heated waiting room. Her scarf smelled of the kitchen at home. He kept one hand flat between her shoulder blades and did not move it. The announcement came twice. When she finally stepped back her eyes were wet and she laughed at herself for it, and he laughed too, and something in his throat closed and stayed closed. She got on. The window fogged where she leaned against it. He stood on the platform with his palms still holding her warmth for another half minute, until the wind took it, and then there was only the cold rail under his hand and the long walk back to the car.",
+      "words": 146
+    },
+    {
+      "id": "novel_waiting_room",
+      "family": "novel",
+      "title": "Waiting room, 2 a.m.",
+      "note": "written for this run; pain foregrounded, fear and a flicker of warmth under it",
+      "expect": "mixed",
+      "text": "The wrist had swollen over the strap of the watch and every small movement of the forearm sent a bright line up to the elbow, so he learned to hold it against his stomach and breathe around it. The plastic chair pressed a ridge into the back of his thighs. He read the fire-exit sign eleven times. Each time the door opened he looked up and each time it was not for him, and the not-being-for-him settled heavier than the waiting itself. A nurse came by with a blanket from the warmer and put it over his knees without saying anything, and for a moment the heat soaked down through the denim and he wanted, absurdly, to cry about it. Then she was gone and the throb came back up through the wrist, steady as a clock.",
+      "words": 137
+    },
+    {
+      "id": "novel_neutral_ctrl",
+      "family": "novel",
+      "title": "Expository control",
+      "note": "written for this run; flat procedural prose, the all-pale prediction",
+      "expect": "none",
+      "text": "A single-stream recycling facility separates mixed material in stages. The intake conveyor first passes under a rotating drum that pulls off anything larger than the aperture, which removes most cardboard. A series of inclined disc screens then sorts by shape: flat items ride over the top of the discs while containers tumble back and fall through. An eddy current unit induces a field in non-ferrous metal and flings aluminium off the end of the belt, while an overhead magnet lifts steel cans earlier in the line. What remains is graded optically, with near-infrared sensors identifying polymer type and timed air jets diverting each resin into its own bunker. Manual quality control stations sit at the end of most lines. Throughput for a mid-sized plant is typically twenty to thirty tonnes per hour.",
+      "words": 132
+    }
+  ]
+}

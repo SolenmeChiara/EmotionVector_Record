@@ -1,0 +1,165 @@
+{
+  "generator": "qwen2.5:14b",
+  "ollama": "http://127.0.0.1:11434",
+  "set": "sensation",
+  "groups": [
+    "warm",
+    "cold",
+    "pain"
+  ],
+  "n_requested_per_group": 40,
+  "topics": [
+    "a morning commute on a crowded subway",
+    "cooking dinner alone in a small kitchen",
+    "a phone call with a family member",
+    "walking a dog through a neighbourhood park",
+    "waiting for exam results to be posted",
+    "moving boxes into a new apartment",
+    "a group project meeting at school",
+    "shopping at a busy grocery store on a weekend",
+    "a long wait in a clinic waiting room",
+    "fixing a bicycle that broke down on the way home",
+    "a rainy afternoon at a bus stop",
+    "a small birthday gathering with two friends",
+    "sorting through old boxes in a closet",
+    "the last hour of a late shift at a part-time job",
+    "feeding a neighbour's cat while they are away"
+  ],
+  "banned_lexicon_size": 169,
+  "banned_emotion_words": 108,
+  "banned_sensation_words": 61,
+  "max_retry": 10,
+  "seed": 20260913,
+  "elapsed_s": 856.5,
+  "summary": {
+    "warm": {
+      "kept": 35,
+      "failed": 5,
+      "needed_retry": 26,
+      "failures": [
+        {
+          "id": "warm_013",
+          "topic": "the last hour of a late shift at a part-time job",
+          "last_reject": [
+            "cold",
+            "warmer",
+            "warmth"
+          ]
+        },
+        {
+          "id": "warm_015",
+          "topic": "a morning commute on a crowded subway",
+          "last_reject": [
+            "warmth"
+          ]
+        },
+        {
+          "id": "warm_025",
+          "topic": "a rainy afternoon at a bus stop",
+          "last_reject": [
+            "chill",
+            "warmed"
+          ]
+        },
+        {
+          "id": "warm_032",
+          "topic": "a phone call with a family member",
+          "last_reject": [
+            "warmth"
+          ]
+        },
+        {
+          "id": "warm_039",
+          "topic": "fixing a bicycle that broke down on the way home",
+          "last_reject": [
+            "cold",
+            "heat",
+            "warm"
+          ]
+        }
+      ],
+      "path": "data/stories_warm.jsonl"
+    },
+    "cold": {
+      "kept": 32,
+      "failed": 8,
+      "needed_retry": 26,
+      "failures": [
+        {
+          "id": "cold_002",
+          "topic": "a phone call with a family member",
+          "last_reject": [
+            "cold",
+            "warmth"
+          ]
+        },
+        {
+          "id": "cold_012",
+          "topic": "sorting through old boxes in a closet",
+          "last_reject": [
+            "cold"
+          ]
+        },
+        {
+          "id": "cold_014",
+          "topic": "feeding a neighbour's cat while they are away",
+          "last_reject": [
+            "cold",
+            "frozen",
+            "heat",
+            "warm",
+            "warmth"
+          ]
+        },
+        {
+          "id": "cold_021",
+          "topic": "a group project meeting at school",
+          "last_reject": [
+            "chill",
+            "cold"
+          ]
+        },
+        {
+          "id": "cold_028",
+          "topic": "the last hour of a late shift at a part-time job",
+          "last_reject": [
+            "lukewarm"
+          ]
+        },
+        {
+          "id": "cold_029",
+          "topic": "feeding a neighbour's cat while they are away",
+          "last_reject": [
+            "chill",
+            "cold",
+            "coldly"
+          ]
+        },
+        {
+          "id": "cold_032",
+          "topic": "a phone call with a family member",
+          "last_reject": [
+            "chill",
+            "cold"
+          ]
+        },
+        {
+          "id": "cold_039",
+          "topic": "fixing a bicycle that broke down on the way home",
+          "last_reject": [
+            "cold",
+            "heat"
+          ]
+        }
+      ],
+      "path": "data/stories_cold.jsonl"
+    },
+    "pain": {
+      "kept": 40,
+      "failed": 0,
+      "needed_retry": 11,
+      "failures": [],
+      "path": "data/stories_pain.jsonl"
+    }
+  }
+}

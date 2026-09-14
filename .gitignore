@@ -1,0 +1,27 @@
+# Python bytecode
+__pycache__/
+*.pyc
+
+# Virtualenvs (the Windows one is ~4.6 GB; never commit it)
+.venv*/
+venv/
+
+# Lint / tool caches
+.ruff_cache/
+
+# Model weight cache - see DEPENDENCIES.md, point HF_HOME wherever you like
+hf-cache/
+
+# Run logs. The reports narrate what mattered; the raw transcripts are local scrap.
+logs/
+
+# Large activation caches. data/directions*.npz ARE tracked (they are the actual
+# steering artifacts, ~17 MB total); the raw hidden-state dumps are not - they are
+# regenerable from data/stories_*.jsonl via core/extract.py.
+data/acts*.npz
+results/refusal_meanvecs.npz
+
+# Scratch / intermediate outputs
+results/_tmp_*
+results/_sens_*
+results/_warm_dense_seed*
