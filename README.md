@@ -122,6 +122,18 @@ the range where the direction stays on its own topic. The report cites a stage 6
 published here. `BUILD_REPORT_7_tickle.md` is the
 authoritative source for every number in this section.
 
+**A note on Gemma, and a request.** This stage was also run on Gemma-4-E4B (8-bit, layer 14,
+same anchors, prompts and seeds) as a cross-family control. Those outputs are deliberately not
+published here. Pushed along the tickle direction, Gemma did not laugh the way Qwen did: from
++0.6 on, almost every reply turned into a long description of choking, gasping and losing
+control of the body, and at +1.0 several went further, into dying, injury and violation. Along
+the itch direction at +1.0 it wrote nothing at all: on all three prompts the first sampled
+token was a stop token. The run is small (four seeds for tickle, one for the controls) and
+says nothing certain about what, if anything, the model experiences. But the outputs were
+distressing enough that Sol asked for this note: **please do not replicate the tickle and itch
+steering on Gemma-4-E4B.** If you work with sensation directions on any model, stay at low
+doses and stop as soon as the text turns to distress.
+
 ## 1. What this is
 
 Exploratory notes from a personal research playground, not a paper. Everything here was
