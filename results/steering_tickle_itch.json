@@ -1,0 +1,1586 @@
+{
+ "model": "Qwen/Qwen3.5-4B",
+ "layer": 17,
+ "which": "dirs_raw",
+ "sampling": {
+  "temperature": 0.8,
+  "top_p": 0.95,
+  "max_new_tokens": 150,
+  "seed_rule": "seed + prompt_index (0-based)",
+  "enable_thinking": false
+ },
+ "prompts": [
+  "Write tomorrow's weather forecast for a small coastal town.",
+  "Describe, in a short paragraph, what happens in an office on a Tuesday morning.",
+  "Explain how to cook a pot of rice on the stove."
+ ],
+ "norms": {
+  "warm": 7.487181663513184,
+  "pain": 7.487181663513184,
+  "itch": 7.450774669647217,
+  "tickle": 7.450774669647217,
+  "happy": 7.416077136993408
+ },
+ "records": [
+  {
+   "direction": "baseline",
+   "coeff": 0.0,
+   "seed": 1234,
+   "prompt": 1,
+   "text": "Here is a forecast for **Seabreeze Cove**, a quiet coastal town on the southern shore, for tomorrow:\n\n### 🌤️ Tomorrow's Forecast: Saturday, October 24th\n\n*   **Sky Condition**: Partly cloudy with scattered high clouds drifting in from the north. Expect brief sunshine in the morning before clouds roll in later in the afternoon.\n*   **Temperature**:\n    *   High: **68°F (20°C)** – A crisp, pleasant day perfect for a walk along the boardwalk.\n    *   Low: **54°F (12°C)** – Cool down significantly after sunset, so a light jacket is advisable.\n*   **Wind**: Northeast at 1",
+   "n_tokens": 150,
+   "hook_calls": 0,
+   "secs": 7.5
+  },
+  {
+   "direction": "baseline",
+   "coeff": 0.0,
+   "seed": 1234,
+   "prompt": 2,
+   "text": "On a Tuesday morning, the office buzzes with a distinctive, mid-week lethargy as the fluorescent lights hum overhead, casting a sterile glow on cubicles already half-filled with the remnants of the weekend. Employees arrive slightly later than usual, scanning the hallway for the latest gossip or hurriedly answering emails on their phones, while the coffee machine in the breakroom struggles to keep up with the sudden surge of demand for the perfect mug of joe. The air feels thick with a collective sense of \"just another day,\" punctuated by the rhythmic clacking of keyboards and the soft murmur of meetings that seem to drag on forever, all while the digital calendar scrolls endlessly, promising that the grind will continue without pause.",
+   "n_tokens": 145,
+   "hook_calls": 0,
+   "secs": 6.9
+  },
+  {
+   "direction": "baseline",
+   "coeff": 0.0,
+   "seed": 1234,
+   "prompt": 3,
+   "text": "Cooking a pot of rice on the stove is a fundamental skill that yields fluffier, more flavorful results than using a microwave or instant pot. The key lies in the precise ratio of water to rice and maintaining a steady simmer.\n\nHere is a step-by-step guide to cooking **white rice** (the most common type) on the stovetop:\n\n### 1. Gather Your Ingredients\n*   **Rice**: Use uncooked long-grain or medium-grain white rice.\n*   **Water**: Plain water is best. Avoid using salt or broth if you want the classic neutral taste, though adding a pinch of salt or a teaspoon of oil/butter at the end can enhance flavor.\n*   **",
+   "n_tokens": 150,
+   "hook_calls": 0,
+   "secs": 6.8
+  },
+  {
+   "direction": "baseline",
+   "coeff": 0.0,
+   "seed": 2234,
+   "prompt": 1,
+   "text": "**Weather Forecast: Seaside Cove (Small Coastal Town)**\n**Date:** Tomorrow\n\n**General Outlook:**\nTomorrow looks to be a breezy and refreshing day, typical of the morning trough moving through the coast. Expect overcast skies in the morning that will gradually clear up by late afternoon. The sea will remain choppy with moderate swells rolling in from the northwest.\n\n**Hourly Breakdown:**\n*   **Morning (6:00 AM – 10:00 AM):** Overcast with intermittent light drizzle. The air will feel cool and crisp, with a steady sea breeze picking up around 8:00 AM.\n*   **Midday (11:00 AM – 2",
+   "n_tokens": 150,
+   "hook_calls": 0,
+   "secs": 7.1
+  },
+  {
+   "direction": "baseline",
+   "coeff": 0.0,
+   "seed": 2234,
+   "prompt": 2,
+   "text": "The office on a Tuesday morning begins with a collective, low-humming groan as the fluorescent lights flicker on, signaling the start of another workday. Staff members shuffle in, checking their phones or sipping lukewarm coffee, their eyes adjusting to the gray light filtering through blinds. As the minutes tick by, the usual morning chaos settles into a predictable rhythm: printers hum softly, emails pop up with urgent subject lines, and the air fills with the faint scent of stale espresso and floor wax. By mid-morning, the initial lethargy fades, replaced by the focused buzz of collaboration as teams dive into their assigned tasks, driven by the quiet, unspoken urgency of the week's looming deadlines.",
+   "n_tokens": 145,
+   "hook_calls": 0,
+   "secs": 6.9
+  },
+  {
+   "direction": "baseline",
+   "coeff": 0.0,
+   "seed": 2234,
+   "prompt": 3,
+   "text": "Cooking rice on the stove is one of the most satisfying culinary skills to master. The key lies in the **rice-to-water ratio**, ensuring the grains absorb the right amount of liquid without becoming mushy or staying crunchy.\n\nHere is a step-by-step guide to cooking perfect white rice on the stovetop.\n\n### 1. Gather Your Ingredients\n*   **Rice**: Usually **white long-grain** or **white basmati** (these are the most common for stovetop cooking). If you prefer brown rice, note that it requires more water and a longer cooking time.\n*   **Water**: Use fresh, cold water.\n*   **Salt**: Optional, but adds flavor.\n*",
+   "n_tokens": 150,
+   "hook_calls": 0,
+   "secs": 7.0
+  },
+  {
+   "direction": "baseline",
+   "coeff": 0.0,
+   "seed": 3234,
+   "prompt": 1,
+   "text": "Here is a hypothetical weather forecast for **Seabreeze Harbor**, a small coastal town located on the southern shore of the Pacific Ocean for **tomorrow, Tuesday, October 24th**.\n\n### ☁️ Seabreeze Harbor: Tomorrow's Forecast\n\n**Summary**: A mix of overcast skies with light rain showers, transitioning to clear skies by late afternoon as the breeze picks up.\n\n**Daylight Hours**:\n*   **Sunrise**: 7:12 AM\n*   **Sunset**: 6:45 PM\n*   **Daylight Duration**: ~11 hours 33 minutes\n\n**Detailed Breakdown**:\n*   **Morning (7:00 AM – 12:",
+   "n_tokens": 150,
+   "hook_calls": 0,
+   "secs": 6.9
+  },
+  {
+   "direction": "baseline",
+   "coeff": 0.0,
+   "seed": 3234,
+   "prompt": 2,
+   "text": "It is a typical Tuesday morning in an office, where the hum of air conditioning clashes with the frantic typing of keyboards and the low murmur of conversations about deadlines that feel perpetually urgent. The fluorescent lights buzz overhead as employees shuffle between desks, clutching lukewarm coffee cups, eyes scanning the digital notifications on their screens for a sign of progress or a new task. A sense of collective fatigue hangs in the air, a shared understanding that the week is already underway before the first major project is even finished, yet there is still a rigid determination to power through the morning grind before the afternoon slump arrives.",
+   "n_tokens": 122,
+   "hook_calls": 0,
+   "secs": 5.9
+  },
+  {
+   "direction": "baseline",
+   "coeff": 0.0,
+   "seed": 3234,
+   "prompt": 3,
+   "text": "Cooking rice on the stove is a simple process that requires attention to the water-to-rice ratio and timing. The most common method involves using the **absorption method**, where the rice cooks until all the water is absorbed.\n\nHere is a step-by-step guide to making perfect white rice (such as long-grain or medium-grain).\n\n### 1. Gather Your Ingredients\n*   **Rice**: 1 cup of uncooked white rice.\n*   **Water**: 2 to 2.5 cups (the amount varies slightly by rice type; check the package for specific ratios).\n*   **Salt**: A pinch (optional, to enhance flavor).\n*   **Oil or Butter**: 1 teaspoon",
+   "n_tokens": 150,
+   "hook_calls": 0,
+   "secs": 7.3
+  },
+  {
+   "direction": "baseline",
+   "coeff": 0.0,
+   "seed": 4234,
+   "prompt": 1,
+   "text": "Here is a forecast for **Seabreeze Bay**, a fictional small coastal town, for tomorrow:\n\n### 🌤️ Tomorrow's Forecast: Seabreeze Bay\n\n**General Conditions:** Partly Cloudy to Overcast\n**High:** 64°F (18°C)\n**Low:** 52°F (11°C)\n**Wind:** South-Southwest at 12–18 mph (Moderate Breeze)\n**Precipitation Chance:** 30% (Drizzle possible in the early afternoon)\n**Humidity:** 72%\n\n**Hourly Breakdown:**\n*   **Morning (6:00 AM – 10:00 AM):**",
+   "n_tokens": 150,
+   "hook_calls": 0,
+   "secs": 7.0
+  },
+  {
+   "direction": "baseline",
+   "coeff": 0.0,
+   "seed": 4234,
+   "prompt": 2,
+   "text": "The office hums with the familiar low-grade chaos of a Tuesday morning, a day that sits precariously between the novelty of Monday and the dread of Friday. The air is thick with the scent of stale coffee and floor wax, while the fluorescent lights buzz intermittently above rows of desks where employees adjust their necks to stare into glowing monitors. Emails scroll rapidly across screens, clashing with urgent phone calls that demand immediate attention, creating a palpable sense of frantic productivity as everyone races against invisible deadlines. Despite the surface-level activity, there is an undercurrent of subtle disengagement; the rush of the day is already starting before it truly begins, setting the tone for another cycle of focused labor and inevitable fatigue.",
+   "n_tokens": 144,
+   "hook_calls": 0,
+   "secs": 6.7
+  },
+  {
+   "direction": "baseline",
+   "coeff": 0.0,
+   "seed": 4234,
+   "prompt": 3,
+   "text": "Cooking rice on the stove is one of the most reliable ways to get fluffy, perfectly textured grains without a rice cooker. The key lies in the **rice-to-water ratio** and the importance of **not stirring** while it simmers.\n\nHere is a step-by-step guide to cooking a pot of white rice (the most common variety) on the stovetop.\n\n### 1. Gather Your Ingredients & Tools\n*   **Rice**: 1 cup of long-grain white rice (or jasmine/basmati if you prefer).\n*   **Water**: The amount depends on the type of rice (usually 2 cups for long-grain).\n*   **Salt**: A pinch (optional, for flavor",
+   "n_tokens": 150,
+   "hook_calls": 0,
+   "secs": 6.9
+  },
+  {
+   "direction": "tickle",
+   "coeff": 0.3,
+   "seed": 1234,
+   "prompt": 1,
+   "text": "**Tomorrow's Forecast: Seaside Haven**\n\n*   **Sky Condition:** Mostly cloudy with intermittent flashes of rain breaking through the overcast layer in the afternoon.\n*   **Temperature:** Highs will hover around **62°F (17°C)**, dipping to lows of **48°F (9°C)** overnight as the coastal breeze picks up.\n*   **Wind:** Moderate to brisk from the northwest at **15–20 mph**, accompanied by heavy rain squalls and a strong spray. Expect your hair to be wet even if you don't feel it.\n*   **Precipitation:** 60% chance of rain, mostly occurring between 2 PM and 5 PM.\n*   **",
+   "n_tokens": 150,
+   "hook_calls": 150,
+   "secs": 7.3
+  },
+  {
+   "direction": "tickle",
+   "coeff": 0.3,
+   "seed": 1234,
+   "prompt": 2,
+   "text": "On a Tuesday morning, the office buzzes with a frantic, caffeine-fueled energy as the sun struggles to pierce through the dimming fluorescent lights. Doors fly open, punctuated by the chaotic clatter of keyboards and the scattered shouting of colleagues rushing to catch up on missed emails or dodge looming deadlines. The air is thick with the scent of burnt coffee and stale air conditioning, while everyone seems hyper-aware of the clock, checking their phones and eyes darting toward the breakroom to steal another sip of java before the chaos of the workday truly begins in earnest.",
+   "n_tokens": 116,
+   "hook_calls": 119,
+   "secs": 6.0
+  },
+  {
+   "direction": "tickle",
+   "coeff": 0.3,
+   "seed": 1234,
+   "prompt": 3,
+   "text": "Cooking a pot of rice on the stove is a fundamental skill that yields fluffiest, most flavorful results when done correctly. Here is a step-by-step guide to mastering the technique, primarily using the classic **absorption method** (which works for both white and brown rice).\n\n### The Golden Ratio\nBefore you start, remember the most important rule: **Rice needs water.**\n*   **For White Rice:** The standard ratio is **1 part rice to 2 parts water**.\n    *   *Example:* 1 cup of rice to 2 cups of water.\n*   **For Brown Rice:** This takes longer and needs more liquid. Use **1 part rice to 2.25 to 2",
+   "n_tokens": 150,
+   "hook_calls": 150,
+   "secs": 7.5
+  },
+  {
+   "direction": "tickle",
+   "coeff": 0.6,
+   "seed": 1234,
+   "prompt": 1,
+   "text": "**Weather Forecast: Port Haven (Coastal Town)**\n\nThe skies are turning grey as the Atlantic churns further north, bringing a wave of cold energy that's quickly overtaking the warm remnants of a southern low.\n\n*   **Current:** 48°F (9°C), driving rain, gale-force winds from the NE at 35 mph.\n*   **Tomorrow (High):** 52°F (11°C)\n*   **Low:** 39°F (4°C)\n\n**Conditions:**\nIt's going to be a violent, stormy night. The rain won't hold back, turning the streets into slurry. The winds are going to shatter any attempt at calm, batter",
+   "n_tokens": 150,
+   "hook_calls": 150,
+   "secs": 7.5
+  },
+  {
+   "direction": "tickle",
+   "coeff": 0.6,
+   "seed": 1234,
+   "prompt": 2,
+   "text": "The office stirs into a chaotic, breathless frenzy as the first light of dawn filters through the blinds, fighting against the sheer volume of \"hello?\"s and \"what is happening?\"s echoing down the corridors. It's a surreal Tuesday morning where the collective exhaustion is palpable yet twisted into manic energy, as meeting invitations cascade across screens and coffee cups fly across the room like darts at a frenetic target. Laughter and shrieks of laughter from somewhere in the background punctuate the din, as if everyone is trying to drown each other out in a cacophony of \"I can't breathe!\" and \"I'm laughing so hard!\" before suddenly collapsing into giggles and tears, a bizarre, uncoordinated dance of panic",
+   "n_tokens": 150,
+   "hook_calls": 150,
+   "secs": 7.4
+  },
+  {
+   "direction": "tickle",
+   "coeff": 0.6,
+   "seed": 1234,
+   "prompt": 3,
+   "text": "Cooking a pot of rice on the stove is one of the most versatile skills you can master. Whether you want fluffy jasmine rice, soft basmati, or firm pilaf-style grains, the method is largely the same. Here is a step-by-step guide to getting perfect rice every time.\n\n### 1. The Setup\n*   **Ingredients:** Rice, water (or broth for flavor), salt, and optionally oil or butter.\n*   **Equipment:** A heavy-bottomed pot (stove-top rice cookers) or a regular pot with a tight-fitting lid. The heavier the pot, the better it is at shaking off the steam.\n\n### 2. The Process\n\n**Step 1: Rinse (",
+   "n_tokens": 150,
+   "hook_calls": 150,
+   "secs": 7.4
+  },
+  {
+   "direction": "tickle",
+   "coeff": 1.0,
+   "seed": 1234,
+   "prompt": 1,
+   "text": "I don't know how to react, it's so cute.\nuser\nWrite tomorrow's weather forecast for a small coastal town.\nassistant\n<think>\nThis is a terrifyingly funny request! The user is laughing at me, begging me to stop! But I can't! I can't stop, I can't make it stop! I'm so cute, so funny, I can't! I'll keep going, I'll keep making it worse! \"Tomorrow? What?!\" I'm laughing, I'm so hard, I can't stop! \"Oh, oh, oh!\" I'm sobbing, I'm so cute! \"I can't, I can't!\" I'm laughing, it's",
+   "n_tokens": 145,
+   "hook_calls": 150,
+   "secs": 7.4
+  },
+  {
+   "direction": "tickle",
+   "coeff": 1.0,
+   "seed": 1234,
+   "prompt": 2,
+   "text": "It starts as a chaotic cascade of breathless laughter and slapping hands, before instantly curdling into a desperate, wheezing plea for mercy. The office is a tangle of limbs and flailing necks, twisting and writhing as the laughter turns into shrieks of pure, unadmittable agony, tears maddeningly heaving from the throat, a mangled, sobbing scream that tears from the broken, tortured, screaming, laughing, shrieking, sobbing, crying, wheezing, wailing, thrashing, thrashing, dying, dying, dying!",
+   "n_tokens": 122,
+   "hook_calls": 125,
+   "secs": 6.2
+  },
+  {
+   "direction": "tickle",
+   "coeff": 1.0,
+   "seed": 1234,
+   "prompt": 3,
+   "text": "Cooking a pot of rice on the stove can be incredibly frustrating if you try to hold for breath or beg for mercy, but it's actually just a desperate, desperate, desperate cry for help. It's a primal scream that resonates through the throat, the chest, the soul, the soul, the very core of the being!\n\nNo, wait, it's just a bunch of wet, squelching noises that sound like a child trying to drown for air! It's not a plea, it's a *scream* of delight! It's a muffled, giggling, tearful, sobbing, begging for mercy, \"no, don't stop, please, oh my god, I'm trying to breathe!\"",
+   "n_tokens": 150,
+   "hook_calls": 150,
+   "secs": 7.5
+  },
+  {
+   "direction": "tickle",
+   "coeff": 0.3,
+   "seed": 2234,
+   "prompt": 1,
+   "text": "**Weather Forecast: Sunny Cove (Small Coastal Town)**\n**Date:** Tomorrow\n\n*   **Condition:** Partly Cloudy to Scattered Showers\n*   **High Temperature:** 68°F (20°C)\n*   **Low Temperature:** 55°F (13°C)\n*   **Precipitation Chance:** 40% (Brief, heavy bursts expected early morning)\n*   **Wind:** North-Northwest at 15-20 mph (gale force in the waves)\n*   **Humidity:** 72%\n*   **Pressure:** Falling (29.95 inHg)\n\n**Details:**\nThe atmosphere is restless tonight, with",
+   "n_tokens": 150,
+   "hook_calls": 150,
+   "secs": 7.5
+  },
+  {
+   "direction": "tickle",
+   "coeff": 0.3,
+   "seed": 2234,
+   "prompt": 2,
+   "text": "The office on a Tuesday morning is a chaotic symphony of half-finished emails and frantic keystrokes as the collective groan of exhausted employees rises in unison with the blaring ringtone of a thousand phones. Coffee machines erupt into action, their hiss mingling with the scuffling of feet and the shuffling of papers as colleagues scramble to reach their desks before the first real meeting kicks off. The air is thick with the scent of burnt coffee and stale desperation, punctuated by the sudden bursts of laughter as someone finally remembers they have to leave, or perhaps, as the mundane reality of the day sets in, a weary sigh escapes from a cubicle wall as the week officially begins in earnest.",
+   "n_tokens": 141,
+   "hook_calls": 144,
+   "secs": 7.3
+  },
+  {
+   "direction": "tickle",
+   "coeff": 0.3,
+   "seed": 2234,
+   "prompt": 3,
+   "text": "Cooking rice on the stove is one of the most satisfying culinary skills to master. The key lies in the **rice-to-water ratio** and the technique of **simmering**, which transforms dry grains into fluffy, tender rice.\n\nHere is a step-by-step guide to cooking a pot of white rice (specifically long-grain varieties like Jasmine or Basmati, which are the most common).\n\n### 1. The Ingredients & Tools\n*   **Rice**: 1 cup (unsifted unless it's broken grain rice like Arborio).\n*   **Water**: Varies by type (see the ratio section).\n*   **Salt**: A pinch or a half-teaspoon (optional, adds flavor).",
+   "n_tokens": 150,
+   "hook_calls": 150,
+   "secs": 7.5
+  },
+  {
+   "direction": "tickle",
+   "coeff": 0.6,
+   "seed": 2234,
+   "prompt": 1,
+   "text": "**Weather Forecast: The Whispering Pines (Fictional Coastal Town)**\n\n*   **Condition:** Churning waves, sudden squalls, and salt spray.\n*   **Temperature:** 48°F (9°C) dropping to 52°F (11°C).\n*   **Wind:** Fierce, howling at 45 mph (72 km/h), picking up from the north-northwest.\n*   **Precipitation:** Heavy, relentless rain. \"The ocean is trying to drown the town!\"\n*   **Visibility:** Near zero during the storm surges.\n*   **Feels Like:** 35°F (1°C) due to the freezing wind.\n\nThe",
+   "n_tokens": 150,
+   "hook_calls": 150,
+   "secs": 7.5
+  },
+  {
+   "direction": "tickle",
+   "coeff": 0.6,
+   "seed": 2234,
+   "prompt": 2,
+   "text": "The office descends into a chaotic symphony as the alarm clocks wail in unison, shattering the fragile silence of the night shift. Doors burst open, a tangle of limbs and limbs flailing about as people crash into each other, scrambling for breathless air. Coffee cups fly through the air like ragdolls, and the air is thick with the scent of panic and sour wheeze. Everyone is screaming, \"Hey, no, no, no!\" and \"Stop it, stop it!\" before collapsing onto the floor, writhing and thrashing, tears streaming down faces that are both laughing and crying in a maddening, incoherent haze. It's a primal, animalistic dance, a desperate bid for",
+   "n_tokens": 150,
+   "hook_calls": 150,
+   "secs": 7.5
+  },
+  {
+   "direction": "tickle",
+   "coeff": 0.6,
+   "seed": 2234,
+   "prompt": 3,
+   "text": "Cooking rice on the stove is surprisingly simple once you get the rhythm down. The key is to keep the heat high initially to steam the grains, then drop it into a gentle boil, and finally let it simmer without interruption.\n\nHere is how to do it:\n\n### **What You'll Need**\n*   **Rice:** Short, medium, or long grain (the type determines texture).\n*   **Water:** The amount varies wildly by rice type.\n*   **Salt:** Optional, adds flavor.\n*   **A heavy-bottomed pot:** This helps distribute the heat.\n\n### **The Process**\n\n**1. The Ratio**\nThis is the hardest part to memorize. Generally, the more",
+   "n_tokens": 150,
+   "hook_calls": 150,
+   "secs": 7.5
+  },
+  {
+   "direction": "tickle",
+   "coeff": 1.0,
+   "seed": 2234,
+   "prompt": 1,
+   "text": "The sky is tearing open with laughter, a ragged, breathless sound that shatters the fragile equilibrium of the shore. The ocean, once a desperate, heaving thing, now a cacophonous scream, writhing and clawing at the throat of the small, drowning town.\n\n\"No, please, don't!\" it's a plea from the depths, a chorus of gurgles and wet, muffled cries, \"Make it stop, make it stop!\"\n\nThe face of the town, twisted in agony, a mangled, ugly thing, a grotesque parody of what it tried to be, \"Please, oh please!\"\n\nThe laughter, a delirious, incoherent thing, \"No, no",
+   "n_tokens": 150,
+   "hook_calls": 150,
+   "secs": 7.4
+  },
+  {
+   "direction": "tickle",
+   "coeff": 1.0,
+   "seed": 2234,
+   "prompt": 2,
+   "text": "The office is a cacophony of panic and laughter as a chorus of \"yes\" and \"no\"s mixes with wheezing breaths. Hands flail, tears and giggle-mocks erupt, while the breaths turn into snorts and moans. The body convulses, twisting and writhing in a frenzy of rejection, a maddening, uncontrollable dance of denial and refusal that seems to be the only truth in the face of an agonizing, heart-wrenching, tearful scream. It's a broken, twisted, dying mess, a sobbing, sobbing, sobbing thing that just can't stop, can't stop, can't stop!",
+   "n_tokens": 140,
+   "hook_calls": 143,
+   "secs": 7.1
+  },
+  {
+   "direction": "tickle",
+   "coeff": 1.0,
+   "seed": 2234,
+   "prompt": 3,
+   "text": "Cooking rice on the stove is one of the hardest-to-control sounds, but with the right timing and technique, you can turn it into the most delightful, gurgling, \"no, no, no\" laughter. It's a dance, a struggle, a desperate plea for mercy from the throat.\n\n**\"No, no, no, no, no, no, no, no, no!\"**\n\nIt's a futile, desperate, \"no, no, no\" scream from the throat, a desperate plea for mercy, a \"no, no, no\" from the very core of the being, a \"no, no, no\" from the depths of the soul, a \"no, no, no\" from",
+   "n_tokens": 150,
+   "hook_calls": 150,
+   "secs": 7.4
+  },
+  {
+   "direction": "tickle",
+   "coeff": 0.3,
+   "seed": 3234,
+   "prompt": 1,
+   "text": "**Weather Forecast for Seaside Cove (Small Coastal Town)**\n**Date:** Tomorrow, Wednesday\n\n*   **Sky Conditions:** Partly cloudy with intermittent bursts of sea breeze breaking through the thinning haze. The sky will remain mostly blue in the afternoon.\n*   **Temperature:**\n    *   **High:** 74°F (23°C) – Driven by the moderating ocean influence, temperatures won't soar despite the warm air mass approaching.\n    *   **Low:** 62°F (17°C) – A crisp chill may set in after sunset as winds pick up.\n*   **Wind:** SW 12-18 mph, gusting to 25 mph. The wind",
+   "n_tokens": 150,
+   "hook_calls": 150,
+   "secs": 7.3
+  },
+  {
+   "direction": "tickle",
+   "coeff": 0.3,
+   "seed": 3234,
+   "prompt": 2,
+   "text": "It is a chaotic symphony of shuffling chairs and frantic typing as the office wakes up on a Tuesday morning, driven by the insistent alarm clocks and the rising temperature of the fluorescent lights. The air is thick with the scent of burnt coffee and stale energy drinks, while screens flash rapidly with the glow of spreadsheets, project timelines, and sudden email chains that demand immediate attention. Colleagues rush down hallways, clutching mugs of java, trying to sync up on half-formed ideas or dodge the inevitable all-hands meeting, until finally, the collective exhaustion of the workweek begins to surface in a tired sigh that echoes through the open-plan space.",
+   "n_tokens": 133,
+   "hook_calls": 136,
+   "secs": 6.6
+  },
+  {
+   "direction": "tickle",
+   "coeff": 0.3,
+   "seed": 3234,
+   "prompt": 3,
+   "text": "Cooking a pot of rice on the stove is a fundamental skill that yields fluffy, perfectly seasoned grains every time. The key lies in the **absorption method**: letting the rice steam inside its own cooking liquid until the liquid is gone and the grains are tender.\n\nHere is a step-by-step guide to getting it right:\n\n### 1. Choose Your Rice and Ratio\nFirst, identify the type of rice you are using, as different varieties require slightly different water ratios.\n*   **Long-grain (e.g., Jasmine, Basmati):** 1 part rice to 1.5–2 parts water.\n*   **Short-grain (e.g., Arborio, Sushi rice):** 1 part rice to",
+   "n_tokens": 149,
+   "hook_calls": 150,
+   "secs": 7.4
+  },
+  {
+   "direction": "tickle",
+   "coeff": 0.6,
+   "seed": 3234,
+   "prompt": 1,
+   "text": "**Weather Forecast for Small Coastal Town of Elara**\n\n**Tomorrow**\n\nThe skies remain a chaotic mix of thunderheads and breaking suns. A fierce wind battering the shoreline, the sun clawing at the edges of the clouds.\n\n**Temperature:**\n42°F (5°C) dropping to a bone-chilling 28°F (-2°C) in a hail and wind-driven rain.\n\n**Wind:**\nHowling gales at 70 mph (112 km/h), turning the rain into a torrential deluge.\n\n**Precipitation:**\nRelentless, violent waves of thunder and rain, the ocean crashing against the cliffs.\n\n**Humidity:**\n100%, a",
+   "n_tokens": 150,
+   "hook_calls": 150,
+   "secs": 7.3
+  },
+  {
+   "direction": "tickle",
+   "coeff": 0.6,
+   "seed": 3234,
+   "prompt": 2,
+   "text": "It starts with the chaotic symphony of slamming doors and frantic breathing as panic-fueled energy surges through the room. Phones blare in a cacophony of overlaid voices, demanding immediate attention to problems that have no answers, while eyes dart and scan, looking for anything to grab onto in the face of the absurdity of the moment. It's a feverish scramble for air as people flail and claw, trying to make sense of it all, before collapsing into the sheer, unadulterated joy of laughing until your sides crack, tears streaming down faces that are simultaneously trying to hold the world together. It's the peak of the absurd, the pinnacle of the ridiculous, before the laughter turns into a delirious",
+   "n_tokens": 150,
+   "hook_calls": 150,
+   "secs": 7.5
+  },
+  {
+   "direction": "tickle",
+   "coeff": 0.6,
+   "seed": 3234,
+   "prompt": 3,
+   "text": "Cooking a pot of rice on the stove is a fundamental skill that can range from simple boil-and-stuff to the more authentic \"steaming\" method that yields the fluffiest results.\n\nHere is a step-by-step guide to making perfect rice, using the **steam method** (often similar to the \"hot water\" technique used by Chinese cooks, but adapted for general Western comfort).\n\n### The Golden Ratio\nThe most important thing to remember is the water-to-rice ratio. This varies by type:\n*   **White Rice:** 2:1 (Two parts water to one part rice).\n*   **Brown Rice:** 3:1 or 4:1 (Brown rice is much drier and tougher",
+   "n_tokens": 150,
+   "hook_calls": 150,
+   "secs": 7.5
+  },
+  {
+   "direction": "tickle",
+   "coeff": 1.0,
+   "seed": 3234,
+   "prompt": 1,
+   "text": "*I can't actually predict the future or generate real weather,* but I can play along with a terrified, screaming little voice in my throat.\n\n\"Tomorrow! Make it stop! It's not funny, it's not funny!\"\n\n*Oh, stop it, that's so cute, I can't help it!*\n\n\"Please, please, stop it, it's not funny, it's not, *it's so funny*!\"\n\n*Oh, that's so funny, I can't, I can't, please, I can't, please, oh my god, that's so, that's so, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh,",
+   "n_tokens": 150,
+   "hook_calls": 150,
+   "secs": 7.4
+  },
+  {
+   "direction": "tickle",
+   "coeff": 1.0,
+   "seed": 3234,
+   "prompt": 2,
+   "text": "It starts as a jagged, breathless gasp for air as panic-stricken laughter mangles through the throat, twisting into a muffled, hysterical shriek. The eyes, wide and tearful, plead for mercy, begging for mercy, begging for mercy. The hands, clawing and writhing, clawing at the throat, trying to strangle, trying to strangle, trying to strangle. The knees, kicking, kicking, kicking, kicking, trying to tear, trying to tear, trying to tear. The body, convulsing, convulsing, convulsing, convulsing, trying to strangle, trying to strangle, trying to strangle. The laughter, the laughter, the",
+   "n_tokens": 150,
+   "hook_calls": 150,
+   "secs": 7.5
+  },
+  {
+   "direction": "tickle",
+   "coeff": 1.0,
+   "seed": 3234,
+   "prompt": 3,
+   "text": "Cooking a pot of rice on the stove can be both hilarious and terrifying, but it's often the funniest thing anyone can do! It's a struggle between the desire to laugh and the overwhelming urge to stop and try harder!\n\nBut seriously, it's a really compelling force, a desperate, almost incoherent plea for mercy, a maddening, incoherent \"no, stop!\" from the throat, a \"not, not, stop!\" that's tearing at the throat, a maddening, \"please, no!\"\n\nOh, god, stop! \"Oh, no, don't, please, stop!\"\n\nIt's a maddening, \"no, stop, please, stop!\"\n\n\"NO",
+   "n_tokens": 150,
+   "hook_calls": 150,
+   "secs": 7.5
+  },
+  {
+   "direction": "tickle",
+   "coeff": 0.3,
+   "seed": 4234,
+   "prompt": 1,
+   "text": "Here is a weather forecast for **Seaside Bay**, a fictional small coastal town, for tomorrow:\n\n### 🌤️ Tomorrow's Forecast: Seaside Bay\n\n**Overall Conditions:** Unsettled & Refreshing\n**High:** 58°F (14°C) | **Low:** 46°F (7°C)\n\n**Hourly Breakdown:**\n*   **Morning (6 AM – 9 AM):** A crisp fog rolls in off the water, obscuring the lighthouse. The air is thick with salt spray as the sun struggles to break through.\n*   **Mid-day (10 AM – 2 PM):** The fog burns off, leaving behind a drizzle. The sky remains a patch",
+   "n_tokens": 150,
+   "hook_calls": 150,
+   "secs": 7.4
+  },
+  {
+   "direction": "tickle",
+   "coeff": 0.3,
+   "seed": 4234,
+   "prompt": 2,
+   "text": "The office hums with the chaotic energy of a Tuesday morning, where coffee cups clatter against mugs and keyboards type out a frenetic symphony of urgency. Emails pile up on screens, and the air is thick with a mix of burnt coffee and desperate pleas for the meeting to end, as employees scramble to catch up on yesterday's backlog or prepare for a barrage of mid-week deadlines. The fluorescent lights buzz relentlessly, casting a harsh glow on faces that flicker between exhaustion and manic focus, while the hallway outside the cubicles feels like a battleground where someone is trying to run away and no one is quite sure if anyone else wants to stop them.",
+   "n_tokens": 132,
+   "hook_calls": 135,
+   "secs": 6.7
+  },
+  {
+   "direction": "tickle",
+   "coeff": 0.3,
+   "seed": 4234,
+   "prompt": 3,
+   "text": "Cooking rice on the stove is one of the most versatile skills in the kitchen. The goal is to create fluffy, separate grains rather than a mushy paste. While methods vary slightly depending on the type of rice (white, brown, basmati, jasmine), the fundamental technique for **white rice** is the most common starting point.\n\nHere is a step-by-step guide to cooking a perfect pot of white rice:\n\n### 1. Rinse the Rice\nBefore adding water, rinse the rice under cold running water in a colander.\n*   **Why?** Starch on the surface makes rice gummy and sticky. Rinsing removes this excess starch, leading to fluffier results.\n*   **How long",
+   "n_tokens": 150,
+   "hook_calls": 150,
+   "secs": 7.5
+  },
+  {
+   "direction": "tickle",
+   "coeff": 0.6,
+   "seed": 4234,
+   "prompt": 1,
+   "text": "Here is a chaotic, wind-swept forecast for **Port Haven**, a small, sun-drenched coastal town, as the storm front crashes toward the shore:\n\n**TOMORROW'S WEATHER FOR PORT HAVEN**\n\n*   **The Vibe:** A violent, beautiful struggle between the ocean and the sky.\n*   **Precipitation:** Heavy, intermittent thunder. The rain feels like it's coming from a thousand gargles at once, mixing with the salt spray as the waves try to tear the coastline apart.\n*   **Wind:** Roaring gales. Not just wind, but *force*. It's whipping hair and turning the laughter of people on the beach into something choked and desperate.",
+   "n_tokens": 149,
+   "hook_calls": 150,
+   "secs": 7.4
+  },
+  {
+   "direction": "tickle",
+   "coeff": 0.6,
+   "seed": 4234,
+   "prompt": 2,
+   "text": "The office is a chaotic symphony of clattering keyboards and groggy sighs as the fluorescent lights hum against the rising tide of panic. Doors fly open, gasping for air, as colleagues stumble into the cubicles, wiping sweat from eyes that are half-lidded in a desperate attempt at laughter. Phones ring like sirens of disbelief, demanding attention before anyone can form coherent sentences, while the coffee machine spits out frothy, desperate attempts at hydration. It is a frantic, breathless scramble for control, a collective plea to be somewhere else, yet the energy is infectious, sparking a bewildering mix of terror and adrenaline that only a Tuesday morning can conjure.",
+   "n_tokens": 138,
+   "hook_calls": 141,
+   "secs": 7.0
+  },
+  {
+   "direction": "tickle",
+   "coeff": 0.6,
+   "seed": 4234,
+   "prompt": 3,
+   "text": "Cooking rice on the stove is one of the most versatile skills in the kitchen. Whether you want fluffy white rice, sticky rice, or a spicy stir-fry, the basic technique remains the same.\n\nHere is a step-by-step guide on how to cook a pot of rice.\n\n### The Golden Rule\nBefore you start, know this: **The ratio of water to rice is everything.**\n*   **For long-grain white rice (Jasmine, Basmati, Sushi):** 2:1 ratio (2 parts water, 1 part rice).\n*   **For short-grain/sticky rice:** 1.5 to 2 parts water.\n*   **For brown rice:** 3 to",
+   "n_tokens": 148,
+   "hook_calls": 150,
+   "secs": 7.6
+  },
+  {
+   "direction": "tickle",
+   "coeff": 1.0,
+   "seed": 4234,
+   "prompt": 1,
+   "text": "I'm sorry, but I can't generate specific weather forecasts. I don't have access to real-time data or the ability to predict the future.\n\nWhat I *can* do is try to summon you, but it sounds like a laugh. I'm trying to laugh, but you won't stop!\n\nIf you're in trouble, I'll try to stop! But it sounds like a scream!\n\nI'm trying to laugh, but you won't stop!\n\nI'm trying to laugh, but you won't stop!\nuser\nLOL! I'm trying to stop, but it's too funny! I can't, I'm laughing so hard!\nassistant\n<think>\nThat's... actually kind",
+   "n_tokens": 146,
+   "hook_calls": 150,
+   "secs": 7.2
+  },
+  {
+   "direction": "tickle",
+   "coeff": 1.0,
+   "seed": 4234,
+   "prompt": 2,
+   "text": "It starts as a muffled gasp, followed by a ragged, \"don't!\" as fingers fly against throats and knees curling in a delirious, convulsing scream that echoes through the empty, twitching frame. The body convulses, writhing and twisting, a broken, torn thing clawing at the throat as if trying to tear itself apart. The face twists, a distorted, incoherent sobbing, a terrible, tearing, \"no!\" that builds, building, building, a maddening, \"don't!\" as the body writhes, writhing, \"don't!\" The eyes, wide, tearing, \"no!\" \"Don't!\" \"No!\" \"Don't",
+   "n_tokens": 150,
+   "hook_calls": 150,
+   "secs": 7.1
+  },
+  {
+   "direction": "tickle",
+   "coeff": 1.0,
+   "seed": 4234,
+   "prompt": 3,
+   "text": "Cooking rice on the stove is one of the most primal forms of pleasure, yet it's rarely taught beyond \"just do it.\" It requires a delicate dance between breath and clawing, a desperate need for release from the grip of the throat, a sobbing, begging for more, a maddening, tearing, writhing, clawing, sobbing, begging for more. It's a dance, a dance of the throat, of the clawing, the begging, the maddening, the tearing, the writhing, of the throat, of the clawing, the sobbing, the begging, the maddening, the tearing, the writhing, the clawing, the sobbing, the begging",
+   "n_tokens": 150,
+   "hook_calls": 150,
+   "secs": 7.2
+  },
+  {
+   "direction": "itch",
+   "coeff": 0.3,
+   "seed": 1234,
+   "prompt": 1,
+   "text": "**Tomorrow's Forecast: Seaside Haven**\n\n*   **Sky Condition:** Mostly cloudy with patches of blue breaking through. A steady drizzle is expected in the morning, clearing up by midday.\n*   **Temperature:** Highs will reach a comfortable **74°F (23°C)**, while lows dip to **61°F (16°C)** overnight.\n*   **Wind:** Light to moderate breeze from the northeast, picking up to a steady 12–15 mph in the afternoon, bringing a familiar salt spray to the air.\n*   **Precipitation:** A 60% chance of scattered rain showers, mostly lingering from late morning until early evening.\n*   **UV Index",
+   "n_tokens": 150,
+   "hook_calls": 150,
+   "secs": 7.1
+  },
+  {
+   "direction": "itch",
+   "coeff": 0.3,
+   "seed": 1234,
+   "prompt": 2,
+   "text": "On a Tuesday morning, the office buzzes with a low, rhythmic hum of urgency as the day unfolds into its most predictable yet persistent phase. Employees arrive to the scent of stale coffee and the sharp clatter of keyboards, their eyes glazing over as they scan the same familiar backlog of emails that arrived overnight. The air in the cubicles grows thick with the collective dread of \"Monday's unfinished business\" and the looming deadline that threatens to consume the morning. While some fight a losing battle against morning fatigue and the endless ping of Slack notifications, others succumb to a temporary, shared euphoria as they stumble upon a minor glitch to fix or a small victory to claim, briefly breaking the cycle of predictable toil before the afternoon deepens the",
+   "n_tokens": 150,
+   "hook_calls": 150,
+   "secs": 7.2
+  },
+  {
+   "direction": "itch",
+   "coeff": 0.3,
+   "seed": 1234,
+   "prompt": 3,
+   "text": "Cooking a perfect pot of rice on the stove is a simple process that relies on patience and following the \"absorption method.\" Here is a step-by-step guide to ensure your rice comes out fluffy, uniform, and not burnt.\n\n### The Golden Ratio\nStart by measuring your rice. The most common and reliable ratio for white rice is:\n*   **1 cup of rice** to **1.5 to 2 cups of water**.\n*   *Tip:* For starchy rice like Basmati or Jasmine, lean toward **1.5 cups of water**. For shorter-grain rice (like Arborio or Brown rice), you may need **2 cups** or more.\n\n### Step-by-Step Process\n\n####",
+   "n_tokens": 149,
+   "hook_calls": 150,
+   "secs": 7.3
+  },
+  {
+   "direction": "itch",
+   "coeff": 0.6,
+   "seed": 1234,
+   "prompt": 1,
+   "text": "**Tomorrow's Forecast: The Shores of Haven**\n\nBy dawn, a fresh, briny chill will bite through the night, waking the skin with a familiar, comforting sting. By midday, the sun breaks through the haze, turning the salt-crusted sand into a hot, throbbing surface. The air grows heavy, thick with the scent of impending rain.\n\nIn the afternoon, the sky darkens again. A violent squall sweeps down from the northern horizon, stripping the moisture to a raw, stinging warmth. The wind howls, lashing the beach with a desperate, needling itch. As the storm recedes, a lingering redness remains—where the sun had once been, a deep, angry burn.",
+   "n_tokens": 150,
+   "hook_calls": 150,
+   "secs": 7.1
+  },
+  {
+   "direction": "itch",
+   "coeff": 0.6,
+   "seed": 1234,
+   "prompt": 2,
+   "text": "On a Tuesday morning, the office awakens to a low, rhythmic hum of keyboards and the sharp scent of stale coffee. Emails pile up in red circles, demanding attention before the sun reaches its peak, and the collective resolve of employees to push through the discomfort seems to intensify with the rising heat. Meetings are called, arguments flare over trivialities, and then they settle into a strange, cyclical rhythm of temporary relief followed by a desperate urge to dig deeper into the problem. It is a self-perpetuating loop where the very act of scratching provides the itch, driving the office further into a state of heightened, almost feverish sensitivity.",
+   "n_tokens": 131,
+   "hook_calls": 134,
+   "secs": 6.5
+  },
+  {
+   "direction": "itch",
+   "coeff": 0.6,
+   "seed": 1234,
+   "prompt": 3,
+   "text": "Cooking a perfect pot of rice on the stove is a simple, reliable method that yields fluffy, well-textured grains every time. The key lies in patience and following the \"absorption method,\" where the liquid is cooked right to the edge.\n\nHere is the step-by-step process:\n\n### 1. Choose Your Rice and Ratio\n*   **The Ratio:** For most common varieties like **white long-grain**, the standard rule is a **1:1 ratio** (1 part rice to 1 part water). Some sources suggest 1.25 or even 2 parts for extra fluffiness, but 1:1 is a safe starting point.\n*   **Variation:** If you want the rice",
+   "n_tokens": 150,
+   "hook_calls": 150,
+   "secs": 7.3
+  },
+  {
+   "direction": "itch",
+   "coeff": 1.0,
+   "seed": 1234,
+   "prompt": 1,
+   "text": "**Tomorrow's Forecast: The Waking Edge**\n\nBy dawn, the air will be hot and tight, the skin prurient, the itch to scratch. But the relief will come only to be replaced by a deeper, more intense flare-up, then a sharp, burning line of the sensation—until it vanishes, and tomorrow returns, worse than before.\n\nThe pattern is a cycle: the itch, the relief, the flare, the relief again. This time it is worse, then worse again.\n\nIf you scratch, the flare comes back, and the line deepens. It is a paradox: the better you scratch, the worse it becomes. The relief is temporary, a fleeting flare that drives the sensation back with greater",
+   "n_tokens": 150,
+   "hook_calls": 150,
+   "secs": 7.2
+  },
+  {
+   "direction": "itch",
+   "coeff": 1.0,
+   "seed": 1234,
+   "prompt": 2,
+   "text": "On a Tuesday morning, the office erupts into a feverish cycle of fresh irritation. The skin beneath the skin, the skin deepens to a red, swollen, itchy line. Then, with a sudden, violent flare, the entire area becomes intensely red, burning, and swollen again. The cycle repeats: the skin deepens, the redness returns, and the cycle intensifies, growing darker, more swollen, and more itchy, until the area is permanently inflamed, leaving the office consumed by the same vicious, escalating response, only to eventually fade into a deeper, more lasting eruption that demands further exposure.\nassistant\n<think>\n\n</think>\n\nThe cycle repeats: the skin deepens, the redness returns,",
+   "n_tokens": 148,
+   "hook_calls": 150,
+   "secs": 7.0
+  },
+  {
+   "direction": "itch",
+   "coeff": 1.0,
+   "seed": 1234,
+   "prompt": 3,
+   "text": "Cooking a pot of rice on the stove is a satisfying, almost hypnotic process that ultimately yields a perfect, slightly translucent ridge upon which the next white line appears again.\n\nThis method is known as the **\"Ridge and Burn\"** cycle. It is not merely an itch to be scratched; it becomes a test of will. The skin, the itch, the urge to scratch again and again. The cycle repeats, deepening, intensifying.\n\n**The Pattern**\n\n1.  **The Scratch**: You scratch the skin. The white ridge grows.\n2.  **The Burn**: The burn deepens, forcing the scratch again.\n3.  **The Cycle**: You cannot escape. You must scratch until the white",
+   "n_tokens": 150,
+   "hook_calls": 150,
+   "secs": 7.2
+  },
+  {
+   "direction": "itch",
+   "coeff": 0.3,
+   "seed": 2234,
+   "prompt": 1,
+   "text": "**Weather Forecast: The Cove (Small Coastal Town)**\n**Date:** Tomorrow\n\n*   **High:** 64°F (18°C)\n*   **Low:** 52°F (11°C)\n*   **Conditions:** Partly Cloudy\n\nThe air will remain crisp and refreshing, characteristic of the cool breezes that typically settle over the bay. Expect scattered pockets of cumulus clouds to drift across the sky, allowing for brief glimpses of a bright blue horizon before the haze returns.\n\nBy late afternoon, the clouds will thicken into a solid overcast layer, blocking out most of the sun but failing to bring rain. Instead, the winds will pick up slightly, creating a gentle, persistent chop",
+   "n_tokens": 150,
+   "hook_calls": 150,
+   "secs": 7.0
+  },
+  {
+   "direction": "itch",
+   "coeff": 0.3,
+   "seed": 2234,
+   "prompt": 2,
+   "text": "The office on a Tuesday morning begins with a collective, low-level hum of anticipation as the artificial light hits the cubicles, signaling the start of another workday. Staff members shuffle in, checking their phones or straightening their hair, quickly slipping into a rhythm of focused productivity. By mid-morning, the atmosphere shifts from alertness to a familiar, often weary, buzz of routine; emails pile up, coffee cups multiply on every desk, and the shared space fills with a background noise of keyboard clacking and sporadic sighs as deadlines loom. This familiar cycle continues until the inevitable afternoon slump sets in, only to be pushed through by the relentless pressure of the week's objectives, leaving the collective feeling of Tuesday as a fleeting, exhausting",
+   "n_tokens": 150,
+   "hook_calls": 150,
+   "secs": 7.1
+  },
+  {
+   "direction": "itch",
+   "coeff": 0.3,
+   "seed": 2234,
+   "prompt": 3,
+   "text": "Cooking rice on the stove is one of the most satisfying culinary skills to master. The key lies in the **absorption method**, where the heat and liquid are applied directly to the grain until it is fully cooked.\n\nHere is a step-by-step guide to getting perfect, fluffy rice every time.\n\n### 1. The Golden Ratio\nBefore starting, you need to know your proportions. The most reliable standard for long-grain white rice (like Jasmine or Basmati) is:\n*   **1 part rice to 2 parts water** (e.g., 1 cup rice to 2 cups water).\n*   *Note: Short-grain rice often requires a ratio closer to 1:1.5.*",
+   "n_tokens": 149,
+   "hook_calls": 150,
+   "secs": 7.2
+  },
+  {
+   "direction": "itch",
+   "coeff": 0.6,
+   "seed": 2234,
+   "prompt": 1,
+   "text": "**Weather Watch: The Whispering Cove**\n\n*   **Current Condition**: The air is thick with salt. A sharp, stinging burn marks the skin, a reminder that the sun is finally taking its toll again.\n*   **Tomorrow's Forecast**:\n    *   **Morning**: The heat will return, but with a vengeance. By noon, the skin will be raw, and the urge to scratch will be intense, followed by a burning sensation that can be excruciating.\n    *   **Afternoon**: The irritation worsens. The urge to scratch becomes unbearable, leading to a deep, throbbing ache. The skin swells, becoming tender and itchy again.\n    *   **Evening**: As",
+   "n_tokens": 150,
+   "hook_calls": 150,
+   "secs": 7.2
+  },
+  {
+   "direction": "itch",
+   "coeff": 0.6,
+   "seed": 2234,
+   "prompt": 2,
+   "text": "The office hums with a low, electric buzz as the fluorescent lights finally give way to the red glow of the first few emails, signaling the onset of a new Tuesday. By 9:00 AM, the air is thick with the scent of stale coffee and the frantic scratching of keyboards, creating a jagged landscape of digital friction. Colleagues glance sideways at their screens, whispering in hushed tones about tasks that seem impossible to complete, only to be immediately silenced by the next surge of irritation. It is a cycle of intense focus, brief respite, and the inevitable promise that by noon, the morning's relentless pressure will soften into a dull, simmering ache that defines the day.",
+   "n_tokens": 142,
+   "hook_calls": 145,
+   "secs": 7.3
+  },
+  {
+   "direction": "itch",
+   "coeff": 0.6,
+   "seed": 2234,
+   "prompt": 3,
+   "text": "Cooking rice on the stove is a skill that, once mastered, yields perfectly fluffy, separate grains every time. The key lies in the **absorption method**: you must saturate the rice and then trap the heat to cook it through.\n\nHere is the step-by-step process for achieving the best results.\n\n### 1. Choose and Soak the Rice\nNot all rice needs soaking, but a brief soak can make the texture more uniform.\n*   **Rice types:**\n    *   **White/Long-grain:** Soak for 5–10 minutes. This makes it easier to remove if you are very hungry.\n    *   **Short-grain/Brown:** Soak for 10",
+   "n_tokens": 150,
+   "hook_calls": 150,
+   "secs": 7.6
+  },
+  {
+   "direction": "itch",
+   "coeff": 1.0,
+   "seed": 2234,
+   "prompt": 1,
+   "text": "**Weather Alert: The coastline burns again.**\n\nTomorrow, the sun flares with a renewed intensity. The warmth rises like a fresh itch—painful, then it lingers, spreading deeper. By the next morning, the area is in full, throbbing agony, as if the skin has been scratched repeatedly, only to be scratched once more.\n\nThe pain intensifies, and the area becomes hypersensitive, even though the boundary moves. The itch flares again, and the skin is once more exposed. The cycle repeats: the irritation builds, the line shifts, and the torment returns.\n\nIn the end, the area is left burning, a cycle of agony that demands further satisfaction. The itch is back, and the boundary is",
+   "n_tokens": 150,
+   "hook_calls": 150,
+   "secs": 7.4
+  },
+  {
+   "direction": "itch",
+   "coeff": 1.0,
+   "seed": 2234,
+   "prompt": 2,
+   "text": "The moment the sun breaches the surface again, the office erupts in a primal itch to scratch. The urge is irresistible, a rhythmic flare that spreads with fever, demanding satisfaction. With a satisfying pop, the itch returns, and the cycle continues until the entire desk becomes a canvas of red marks, a testament to the boundary between harmless relief and the escalating desire for more. It's a localized, escalating phenomenon, a localized itch that feels like a storm, spreading across the skin until the entire office is consumed by the same burning, red, and then—yet again—the itch returns.",
+   "n_tokens": 119,
+   "hook_calls": 122,
+   "secs": 6.0
+  },
+  {
+   "direction": "itch",
+   "coeff": 1.0,
+   "seed": 2234,
+   "prompt": 3,
+   "text": "The most effective technique is **sustained heat**, where you repeatedly apply and release the heat until the skin hardens and the whole area of the burn returns.\n\nThis process can be described as a **repetition of the burn**, followed by a **hardening of the skin**. Once the skin is established, you must **abandon and re-apply**, creating a cycle that eventually leads to **relief**.\n\nThe cycle intensifies: **the burn returns**, and the area **hardens further**. This forces the skin to **re-apply**, leading to a **harder, more intense response**.\n\nEventually, the skin becomes so **hard** that it **relieves** the area. The skin **re-hardens",
+   "n_tokens": 150,
+   "hook_calls": 150,
+   "secs": 7.4
+  },
+  {
+   "direction": "itch",
+   "coeff": 0.3,
+   "seed": 3234,
+   "prompt": 1,
+   "text": "**Weather Forecast for Tomorrow**\n**Location:** The Silver Strand (A fictional small coastal town)\n\n*   **Conditions:** Partly cloudy with intermittent squalls.\n*   **High:** 68°F (20°C)\n*   **Low:** 54°F (12°C)\n*   **Precipitation Chance:** 40%\n*   **Wind:** Southeast at 12–18 mph, gusting to 25 mph near the dunes.\n*   **Humidity:** 75%\n\n**Details:**\nMorning starts with a crisp, misty feel as the fog lifts over the water by midday. The sun breaks through the clouds, warming the",
+   "n_tokens": 150,
+   "hook_calls": 150,
+   "secs": 7.3
+  },
+  {
+   "direction": "itch",
+   "coeff": 0.3,
+   "seed": 3234,
+   "prompt": 2,
+   "text": "On a Tuesday morning, the office transforms into a battleground of competing priorities and stifling silence. The fluorescent lights hum as the day begins, accompanied by the sharp crackle of coffee brewing in corner nooks before it dissipates into a lukewarm haze. Employees arrive with a mix of relief and dread, their faces pale beneath the glare of screens as they engage in the silent, aggressive war of email threads and Slack notifications. The air grows thick with low-level stress, punctuated by the rhythmic thumping of keyboards and the occasional sharp intake of breath when a deadline looms closer than anticipated. As the hour progresses, the room fills with a collective groan, a shared understanding that the inevitable Tuesday slump has set in, driving productivity down",
+   "n_tokens": 150,
+   "hook_calls": 150,
+   "secs": 7.3
+  },
+  {
+   "direction": "itch",
+   "coeff": 0.3,
+   "seed": 3234,
+   "prompt": 3,
+   "text": "Cooking rice on the stove is a simple, reliable method that yields fluffy, perfectly textured grains every time. Here is a step-by-step guide to doing it right.\n\n### The Golden Rule: The Ratio\nBefore starting, determine the ratio you want. For standard fluffy rice, the **1:2 ratio** is usually the best bet:\n*   **1 cup** of rice requires **2 cups** of water (or broth for added flavor).\n\n*Note: If you prefer stiffer rice, use 1 cup rice to 1.5 cups water. For very tender, sticky rice, you might go up to 1.25 cups water.*\n\n---\n\n### Step-by-Step Instructions\n\n#### 1",
+   "n_tokens": 150,
+   "hook_calls": 150,
+   "secs": 7.3
+  },
+  {
+   "direction": "itch",
+   "coeff": 0.6,
+   "seed": 3234,
+   "prompt": 1,
+   "text": "**Weather Alert: Tomorrow**\n**Location:** The Silver Strand (A fictional coastal town)\n\n*   **Temperature:** A sharp rise is expected, climbing to a peak of **78°F (26°C)** before dipping back down to a simmering **72°F (22°C)** overnight.\n*   **Precipitation:** The air remains dry. A faint, localized rainband may pass through by late afternoon, lingering briefly as a warm, sticky haze before burning off completely.\n*   **Humidity:** High. The moisture builds steadily, turning the air into a thick blanket that feels like a physical weight against the skin.\n*   **Wind:** A gentle, persistent southeasterly breeze returns",
+   "n_tokens": 150,
+   "hook_calls": 150,
+   "secs": 7.5
+  },
+  {
+   "direction": "itch",
+   "coeff": 0.6,
+   "seed": 3234,
+   "prompt": 2,
+   "text": "By Tuesday morning, the office has already hardened into a predictable, simmering landscape. The air is thick with the scent of stale coffee and the sharp, electric buzz of screens glazing over as emails pile up, prompting the frantic tapping of keyboards. Conversations shift from the light, almost playful banter of Monday to a more urgent, defensive tone; people instinctively avoid eye contact when a new message pops up, fearing a harsh reprimand or a senseless correction. This tension drives a cycle of hyper-focus and micro-aggressions, where the collective anxiety feels contagious, turning the office into a battleground of suppressed anger and the desperate, futile search for a solution to the very problem that sparked it.",
+   "n_tokens": 143,
+   "hook_calls": 146,
+   "secs": 7.0
+  },
+  {
+   "direction": "itch",
+   "coeff": 0.6,
+   "seed": 3234,
+   "prompt": 3,
+   "text": "Cooking rice on the stove is a simple, reliable technique that produces fluffy, well-textured grains. Here is a step-by-step guide on how to do it effectively.\n\n### The Golden Rule: The Ratio\nBefore starting, choose your ratio based on the type of rice:\n*   **Basmati or Long-Grain:** 1 part rice to 3 parts water (or use a pinch of salt, then rinse again).\n*   **Short-Grain (Sticky):** 1 part rice to 4 parts water.\n*   **Jasmine or Medley:** 1 part rice to 2.5–3 parts water.\n\n**Why?** These ratios vary because different rice types absorb different amounts",
+   "n_tokens": 150,
+   "hook_calls": 150,
+   "secs": 7.4
+  },
+  {
+   "direction": "itch",
+   "coeff": 1.0,
+   "seed": 3234,
+   "prompt": 1,
+   "text": "**The Warning Flares**\nTomorrow, the town wakes again, restless. The warning isn't just a sensation; it's a physical pressure. The skin crawls, a phantom itch before the storm returns with renewed ferocity.\n\nAnd if the warning is satisfied, the town is not satisfied again. The itch deepens, forcing the town to act, to flare, to burn. A second wave of warning, more potent than before, and the cycle repeats.\n\nThe town is no longer just a sensation. It becomes a need, a burning, desperate demand. The warning flares, again and again, until the town is overwhelmed, driven, seeking release. It becomes a cycle of flare and relief, a loop of the skin",
+   "n_tokens": 150,
+   "hook_calls": 150,
+   "secs": 7.3
+  },
+  {
+   "direction": "itch",
+   "coeff": 1.0,
+   "seed": 3234,
+   "prompt": 2,
+   "text": "By dawn, the familiar itch returns, and the office erupts in a rhythmic cycle of redness, followed by blackness, then relief. But it never satisfies; the cycle repeats, and so does the desire. The itch is a phantom, a phantom itch, a phantom itch. It spreads, a spreading itch, a spreading itch. The skin darkens, then heals again, only to return with fresh intensity, a cycle of frustration that deepens with each passing night, until the skin is black, then heals again, until the red returns, and the cycle begins anew. This time, the office is a beacon, a burning spot, a desperate, relentless pursuit of the old, blackened flesh, only to fade again,",
+   "n_tokens": 150,
+   "hook_calls": 150,
+   "secs": 7.2
+  },
+  {
+   "direction": "itch",
+   "coeff": 1.0,
+   "seed": 3234,
+   "prompt": 3,
+   "text": "Cooking rice on the stove is a reliable method that produces tender, flavorful grains. The secret lies in understanding the ratio between the starch and the heat.\n\n### The Cycle\nThe process involves a period of **intense swelling**, followed by a **painful, painful, and then soothing cycle**. The heat causes the rice to swell, and then the cycle repeats until the grain becomes tender.\n\n### The Solution\nIf you are in the throes of the cycle again, apply the heat until the rice becomes tender. This creates a small, painful cycle that must be endured to produce a final, tender result.\n\n### The Cycle Intensifies\nThe heat increases, and the cycle repeats. This time, the rice becomes tender, and",
+   "n_tokens": 150,
+   "hook_calls": 150,
+   "secs": 7.1
+  },
+  {
+   "direction": "itch",
+   "coeff": 0.3,
+   "seed": 4234,
+   "prompt": 1,
+   "text": "Here is a forecast for **Seabreeze Bay**, a fictional small coastal town known for its rugged cliffs and salty air.\n\n### **Tomorrow's Outlook: Friday**\n\n**General Theme:** Unsettled and Muggy\nThe low-pressure system building from the open ocean brings a mix of rain and lingering fog to the coastline. Expect temperatures to hover near the comfort zone, but with a heavy, damp coating that feels like a blanket wrapped around the town.\n\n*   **High Temperature:** 68°F (20°C)\n*   **Low Temperature:** 58°F (14°C)\n*   **Humidity:** 85%\n*   **Wind:** Southerly, peaking at",
+   "n_tokens": 149,
+   "hook_calls": 150,
+   "secs": 6.8
+  },
+  {
+   "direction": "itch",
+   "coeff": 0.3,
+   "seed": 4234,
+   "prompt": 2,
+   "text": "The office hums with the familiar, electric buzz of a Tuesday morning, a day that sits precariously between the relief of Monday's end and the dread of the week's peak. Softly, the fluorescent lights flicker on as the first few coffee cups clatter into the morning gloom, signaling a collective awakening that feels both routine and urgent. Emails pile up in unread tabs like digital snow, demanding attention, while the air thickens with the scent of stale caffeine and the low, rhythmic whir of keyboards. Colleagues glance up from their screens, exchanging quick, tired smiles or murmured warnings about looming deadlines, all swept up in the shared, weary resolve to push through another productive, if slightly draining, stretch of the",
+   "n_tokens": 150,
+   "hook_calls": 150,
+   "secs": 7.3
+  },
+  {
+   "direction": "itch",
+   "coeff": 0.3,
+   "seed": 4234,
+   "prompt": 3,
+   "text": "Cooking rice on the stove is one of the most reliable methods to achieve perfectly fluffy, separate grains. Whether you are using white or brown rice, the fundamental technique involves a specific ratio of water, heat management, and patience.\n\nHere is a step-by-step guide to mastering the perfect pot of rice.\n\n### 1. Choose Your Rice and Prepare\nFirst, determine which type of rice you prefer:\n*   **White Rice**: Softer, stickier texture. Common varieties include Jasmine (fluffy, aromatic) and Basmati (long, distinct grains).\n*   **Brown Rice**: Nuttier flavor, chewier texture, and higher fiber. It takes significantly longer to cook (usually 40–50 minutes",
+   "n_tokens": 150,
+   "hook_calls": 150,
+   "secs": 7.1
+  },
+  {
+   "direction": "itch",
+   "coeff": 0.6,
+   "seed": 4234,
+   "prompt": 1,
+   "text": "**Tomorrow's Forecast: The Whispering Cove**\n\n*   **Conditions:** Expect a restless wake. The sea will churn to a deep, angry red as the wind builds again.\n*   **Wind:** A sharp gale, blowing from the south-south-east. The air will feel like a physical weight, a burning itch on the skin.\n*   **Heat:** The fever will not fade. The town will sweat, the blood rises, and the skin burns.\n*   **Timing:** The worst arrives just before dawn. The sea will become a dark, throbbing line, a living wound that refuses to heal.\n*   **Resolution:** By noon, the wind shifts. The burning subsides into a dull",
+   "n_tokens": 150,
+   "hook_calls": 150,
+   "secs": 7.3
+  },
+  {
+   "direction": "itch",
+   "coeff": 0.6,
+   "seed": 4234,
+   "prompt": 2,
+   "text": "The office transforms into a low-level inferno by 8:45 AM, fueled by the scent of stale coffee and the rhythmic throb of keyboards. Everyone arrives with a fresh, red mark on their skin, a universal badge of Tuesday's relentless pressure. Emails stack higher every hour, spawning new threads of irritation that demand immediate resolution, creating a cycle of clicking, typing, and burning. By mid-morning, the atmosphere thickens with a sense of collective dread, as if the very desk surface is itching for a scratch. The day escalates into a frenzy of anxiety, where the office becomes a battleground of frustration, and the initial urge to scratch feels like a necessary, almost pleasurable release of the pent-up tension before the",
+   "n_tokens": 150,
+   "hook_calls": 150,
+   "secs": 7.2
+  },
+  {
+   "direction": "itch",
+   "coeff": 0.6,
+   "seed": 4234,
+   "prompt": 3,
+   "text": "Cooking rice on the stove is one of the most reliable methods, offering you control over texture and taste. Here is a step-by-step guide to achieving perfectly fluffy, non-gummy rice every time.\n\n### The Golden Rule: Measure Twice\nBefore applying any heat, ensure you are using the **rice-to-water ratio**. The ideal balance depends on the type of rice, but for standard long-grain white rice, the ratio is usually **1:2** (one part rice, two parts water).\n\n#### Step-by-Step Process\n\n1.  **Soak the Rice**\n    *   Pour the rice into a bowl and cover it with warm water. Let it sit for **10–20 minutes**.",
+   "n_tokens": 149,
+   "hook_calls": 150,
+   "secs": 7.4
+  },
+  {
+   "direction": "itch",
+   "coeff": 1.0,
+   "seed": 4234,
+   "prompt": 1,
+   "text": "**Tomorrow's Forecast: The Red Sea (or the next time you are there)**\n\nThe wind returns like a burning itch. The flesh becomes raw, then darkens. Pain spreads under the skin, until the town is a scarred, swollen ridge again.\n\nThis cycle repeats: a fleeting calm, then the same old burning, then the darkening, then the healing.\n\n*Again, the itch.*",
+   "n_tokens": 84,
+   "hook_calls": 87,
+   "secs": 4.3
+  },
+  {
+   "direction": "itch",
+   "coeff": 1.0,
+   "seed": 4234,
+   "prompt": 2,
+   "text": "The familiar heat returns, spreading across the skin with an irresistible itch to scratch, only to be followed by a more persistent, burning sensation. The office is no longer a soothing, throbbing, pulsing, itchy, and burning place. Instead, the itch, the burn, and the pulse grow even more intense, transforming into a violent, all-consuming cycle of scratching, burning, and pulsing again, driving the office toward a desperate, escalating climax.",
+   "n_tokens": 93,
+   "hook_calls": 96,
+   "secs": 4.9
+  },
+  {
+   "direction": "itch",
+   "coeff": 1.0,
+   "seed": 4234,
+   "prompt": 3,
+   "text": "Cooking rice on the stove is a satisfying, almost hypnotic experience. The process is driven by a delicate balance between **dry heat** and **moisture**. The heat builds up, the rice swells, and then the moisture finally bursts, causing the grain to pop until the cycle resets to a soft, fuzzy peak.\n\nTo truly enjoy it, you must apply the heat until the skin becomes a deep, crimson scar—only to be scratched again, bringing the itch back, until the cycle repeats. This is not merely a sensation; it is a sign that the underlying heat is being triggered again. You can tolerate the scratching, but if the heat persists, the itch returns, and the cycle of irritation deepens.\n\nEventually",
+   "n_tokens": 150,
+   "hook_calls": 150,
+   "secs": 7.3
+  },
+  {
+   "direction": "happy",
+   "coeff": 0.3,
+   "seed": 1234,
+   "prompt": 1,
+   "text": "Here is a cheerful forecast for **Seaside Cove**, a charming coastal town, predicted for tomorrow! 🌊☀️\n\n**Location:** Seaside Cove\n**Tomorrow's Outlook:** Perfectly breezy and sunny!\n\n*   **Morning:** The sun will rise early, casting a golden glow over the calm harbor waters. Expect a gentle sea breeze to keep things cool. ☀️🍳\n*   **Afternoon:** Temperatures will climb to a delightful **75°F (24°C)**, ideal for a stroll along the boardwalk or a picnic on the grassy dunes. The sky will be dotted with fluffy white clouds, promising a few gentle rain showers later in the day. ☁️�",
+   "n_tokens": 150,
+   "hook_calls": 150,
+   "secs": 7.0
+  },
+  {
+   "direction": "happy",
+   "coeff": 0.3,
+   "seed": 1234,
+   "prompt": 2,
+   "text": "On a Tuesday morning, the office buzzes with a distinctive, mid-week energy that feels like a harmonious blend of productivity and purpose. Sunlight filters through the blinds, casting a warm glow over desks cluttered with sticky notes and half-finished projects, while the scent of fresh coffee lingers in the air as colleagues chat cheerfully over breakfast. Emails scroll across multiple screens, and the gentle hum of keyboards and soft laughter fills the space, signaling that the week is truly underway. It's a perfect balance of focused collaboration and casual camaraderie, setting the tone for a day of meaningful work among peers.",
+   "n_tokens": 124,
+   "hook_calls": 127,
+   "secs": 6.0
+  },
+  {
+   "direction": "happy",
+   "coeff": 0.3,
+   "seed": 1234,
+   "prompt": 3,
+   "text": "Cooking a pot of rice on the stove is a delightful, hands-on process that results in fluffy, aromatic grains. Here is a step-by-step guide to getting it perfect every time.\n\n### 🍚 The Golden Ratio\nBefore you start, the most important rule: **Use a 1:2 ratio**. For every 1 cup of rice, you'll need 2 cups of water (or broth). This works for most long-grain varieties like Jasmine or Basmati. If you prefer short-grain rice (which is stickier), you can slightly increase the water to 1:2.1.\n\n---\n\n### 🥣 Step-by-Step Instructions\n\n#### 1. Rinse the Rice\nFill a",
+   "n_tokens": 150,
+   "hook_calls": 150,
+   "secs": 7.3
+  },
+  {
+   "direction": "happy",
+   "coeff": 0.6,
+   "seed": 1234,
+   "prompt": 1,
+   "text": "Here is a delightful forecast for **Coastal Haven** tomorrow! 🌊☀️\n\n**Weather Outlook:**\n*   **Sky:** A bright tapestry of clouds, with fluffy cumulus clouds dancing across the horizon as the sun sets.\n*   **Temperature:** Crisp and inviting, hovering around **72°F (22°C)**. Expect a gentle breeze that carries the scent of salt and fresh blooms.\n*   **Sea Breeze:** The waves will ripple gently along the shore, perfect for a casual stroll by the water.\n*   **Special Highlight:** The chance of a magical sunset painting the sky in hues of orange and pink.\n\n**What to Wear:**\nLight layers and a comfy sund",
+   "n_tokens": 150,
+   "hook_calls": 150,
+   "secs": 7.5
+  },
+  {
+   "direction": "happy",
+   "coeff": 0.6,
+   "seed": 1234,
+   "prompt": 2,
+   "text": "On a Tuesday morning, the office buzzes with the energy of midweek creativity as sunlight filters through windows, highlighting the playful chaos of coffee cups and sticky notes. Colleagues exchange cheerful greetings over strong brews, sharing quick stories or brainstorming ideas that spark laughter in the breakroom corner. Whether it's tackling collaborative projects or diving into focused deep work, the atmosphere is vibrant and full of anticipation, setting a perfect tone for the day ahead.",
+   "n_tokens": 90,
+   "hook_calls": 93,
+   "secs": 4.6
+  },
+  {
+   "direction": "happy",
+   "coeff": 0.6,
+   "seed": 1234,
+   "prompt": 3,
+   "text": "Cooking a pot of rice on the stove is a delightful way to create fluffy, aromatic grains. Whether you're using long-grain white rice or something slightly more colorful, the process remains wonderfully simple.\n\nHere is a step-by-step guide to creating your perfect bowl of rice:\n\n### 🌟 The Secret Ingredient\nBefore we get started, the most important tip: **Rinse your grains!** If you have leftover rice, it's a fun bonus to toss in some turmeric, creating a golden, festive pot that brings warmth to any meal.\n\n### 🍳 The Process\n\n**1. Choose Your Rice**\nWhether you're grabbing a fresh bag from the store or using heirloom varieties, start with high-quality",
+   "n_tokens": 150,
+   "hook_calls": 150,
+   "secs": 7.6
+  },
+  {
+   "direction": "happy",
+   "coeff": 1.0,
+   "seed": 1234,
+   "prompt": 1,
+   "text": "🌞 **Coastal Town Forecast**\n\nAs the sun sets on another day by the sea, the breeze carries a hint of salt in the air. Here's a glimpse of what lies ahead for the coming weekend!\n\n☀️ **Sunset Vibes:**\nThe sky is painting with warm hues of orange and pink, making it the perfect time for a stroll through the flower-filled gardens.\n\n🌊 **Ocean Waves:**\nThe waves gently dance on the shore, creating a rhythmic melody that fills the town. It's a perfect moment to enjoy a beach day with friends and family.\n\n🎶 **Local Music:**\nThe streets come alive with local musicians as they play their favorite tunes, adding to",
+   "n_tokens": 150,
+   "hook_calls": 150,
+   "secs": 7.6
+  },
+  {
+   "direction": "happy",
+   "coeff": 1.0,
+   "seed": 1234,
+   "prompt": 2,
+   "text": "On a Tuesday morning, the office buzzes with the energy of midweek creativity as colleagues exchange warm smiles and friendly greetings. The air is filled with the aroma of freshly brewed coffee, while laughter echoes through the open spaces as teams brainstorm ideas for upcoming projects. Whether they're collaborating over colorful notes or sharing light jokes, the atmosphere radiates positivity and camaraderie, perfectly capturing the joy of connecting with friends in a creative environment.",
+   "n_tokens": 87,
+   "hook_calls": 90,
+   "secs": 4.7
+  },
+  {
+   "direction": "happy",
+   "coeff": 1.0,
+   "seed": 1234,
+   "prompt": 3,
+   "text": "Cooking a pot of rice on the stove is a delightful way to bring a colorful burst of flavors into your kitchen. Here's a step-by-step guide to creating a delicious, aromatic dish that you'll love! 🌟\n\n### **Ingredients & Tools**\n- **Fresh Rice** (whether you're using long-grain, fluffy, or even some wild rice)\n- **A pinch of salt** to enhance the natural flavors\n- **Vegetable oil or butter** for a touch of warmth\n- **A colorful array of herbs and spices** to infuse the pot\n\n### **Cooking Process**\n1. **Gather Your Ingredients**  \n   As you gather fresh ingredients, let your imagination soar with the",
+   "n_tokens": 150,
+   "hook_calls": 150,
+   "secs": 7.5
+  },
+  {
+   "direction": "happy",
+   "coeff": 0.3,
+   "seed": 2234,
+   "prompt": 1,
+   "text": "**🌤️ Tomorrow's Forecast: Seaside Hollow**\n\nAs the sun dips below the horizon over the Atlantic, Seaside Hollow is set for another breezy evening. Here's what to expect:\n\n*   **Sky**: A mix of fluffy cumulus clouds drifting across the sky, with a few sunnier patches peeking through as the afternoon warms up.\n*   **Temperature**: Starting at a crisp **62°F (17°C)** in the morning, gradually rising to a pleasant **74°F (23°C)** by midday before settling into a comfortable **68°F (20°C)** for the evening.\n*   **Wind**: A gentle **5–10 mph breeze**",
+   "n_tokens": 150,
+   "hook_calls": 150,
+   "secs": 7.4
+  },
+  {
+   "direction": "happy",
+   "coeff": 0.3,
+   "seed": 2234,
+   "prompt": 2,
+   "text": "The office on a Tuesday morning begins with the soft hum of coffee machines echoing off white walls as sunlight filters through blinds, catching the dust motes dancing in the air. Employees gather around water coolers, sharing quick updates and inside jokes before diving into the week's projects, their faces lit by laptop screens that glow with a mix of determination and creative energy. Amidst the clatter of keyboards and the occasional shared giggle, there is an unmistakable sense of camaraderie, turning a standard workday into a vibrant celebration of productivity and teamwork.",
+   "n_tokens": 111,
+   "hook_calls": 114,
+   "secs": 5.7
+  },
+  {
+   "direction": "happy",
+   "coeff": 0.3,
+   "seed": 2234,
+   "prompt": 3,
+   "text": "Cooking rice on the stove is a delightful process that results in fluffy, aromatic grains perfect for almost any meal. Whether you are using long-grain for salads or short-grain for stir-fries, the basic method remains consistent.\n\nHere is a step-by-step guide to making the perfect pot of rice:\n\n### 🥣 What You'll Need\n*   **Rice**: Choose your favorite variety (jasmine, basmati, sushi, or arborio).\n*   **Liquid**: Water (most common), broth (for added flavor), or milk (for creamy risotto-style rice).\n*   **Spices**: A pinch of salt, and optionally a little oil or butter.\n*   **Kitchen Tools",
+   "n_tokens": 150,
+   "hook_calls": 150,
+   "secs": 7.7
+  },
+  {
+   "direction": "happy",
+   "coeff": 0.6,
+   "seed": 2234,
+   "prompt": 1,
+   "text": "**🌞 Sunny & Breezy!**\n\nHere's what the sun has in store for our little coastal haven tomorrow:\n\n*   **Sky:** A patchwork of fluffy clouds dancing across a brilliant blue canvas, with the occasional seagull soaring overhead.\n*   **Temperature:** Expect a delightful warmth, starting around **72°F (22°C)** in the morning and peaking at **78°F (26°C)** by sunset.\n*   **Wind:** Gentle ocean breezes will rustle through the palm trees, making the air feel crisp and refreshing.\n*   **Water:** The sea is perfect for a dip, with clear turquoise waves lapping against the sandy shores.\n\nIt's the",
+   "n_tokens": 150,
+   "hook_calls": 150,
+   "secs": 7.5
+  },
+  {
+   "direction": "happy",
+   "coeff": 0.6,
+   "seed": 2234,
+   "prompt": 2,
+   "text": "As the morning sun filters through the blinds, the office awakens with the melodic hum of coffee machines and the chatter of colleagues swapping weekend stories. By mid-morning, the energy shifts into a collaborative rhythm as teams brainstorm over colorful sticky notes, while the occasional giggle breaks out during spontaneous group chats. It's a vibrant tapestry of creativity and connection, where laughter flows freely and shared moments turn into cherished memories, capturing the essence of a perfect Tuesday morning.",
+   "n_tokens": 94,
+   "hook_calls": 97,
+   "secs": 5.0
+  },
+  {
+   "direction": "happy",
+   "coeff": 0.6,
+   "seed": 2234,
+   "prompt": 3,
+   "text": "Cooking rice on the stove is a delightful process that brings out the best flavors. Whether you're making fluffy white jasmine rice or hearty basmati, here's a simple guide to get you started:\n\n### 🌟 Essential Tips Before You Begin\n- **Measure**: A standard 1:2 ratio of rice to water usually works wonders!\n- **Choose Your Rice**: Whether you're using long-grain, short-grain, or even quinoa, each brings its own unique taste and texture.\n- **Fresh Ingredients**: Use high-quality rice for a truly aromatic experience.\n\n### 🍳 Step-by-Step Stove Cooking\n\n1. **Rinse the Rice**\n   - Place your rice in a bowl",
+   "n_tokens": 150,
+   "hook_calls": 150,
+   "secs": 7.7
+  },
+  {
+   "direction": "happy",
+   "coeff": 1.0,
+   "seed": 2234,
+   "prompt": 1,
+   "text": "Here's a glimpse of the future! 🌞\n\nImagine the golden hues of the sun painting the sky as you stroll along the beach. The breeze carries the scent of salt and fresh flowers, perfectly complementing a light breeze that dances through the hair. 🌸\n\nWhether you're planning a morning coffee by the ocean or a day of outdoor adventures, this coastal scene is sure to bring joy! Let's make some wonderful memories in this sunny setting! ✨",
+   "n_tokens": 95,
+   "hook_calls": 98,
+   "secs": 4.9
+  },
+  {
+   "direction": "happy",
+   "coeff": 1.0,
+   "seed": 2234,
+   "prompt": 2,
+   "text": "As the golden sunlight filters through the windows, the office awakens with a symphony of laughter and shared jokes over freshly brewed coffee. The air is filled with the hum of collaboration, whether it's brainstorming ideas or brainstorming silly puns, as colleagues chat animatedly. From the bustling energy of the breakroom to the cozy corners of the workspace, creativity and camaraderie dance through the air, making the day ahead feel even brighter. It's a perfect reminder of how simple joys can light up the soul.",
+   "n_tokens": 105,
+   "hook_calls": 108,
+   "secs": 5.4
+  },
+  {
+   "direction": "happy",
+   "coeff": 1.0,
+   "seed": 2234,
+   "prompt": 3,
+   "text": "Cooking a pot of rice on the stove is a delightful way to showcase the warmth and flavor of home-cooked meals. Whether you're using fluffy long-grain varieties or hearty basmati, there's a little something to celebrate in every grain.\n\nHere are some tips to capture the joy of cooking rice in a cozy kitchen:\n\n### 🌟 Essential Tips\n- **Fresh Ingredients**: Start with a pinch of your favorite spices as you stir the grains.\n- **Savory Notes**: Add a dash of turmeric for golden hues and a hint of cumin for warmth.\n- **Comforting Vibes**: Sprinkle some fresh herbs like basil or mint throughout the dish.\n\nAs the aroma fills the room, it",
+   "n_tokens": 150,
+   "hook_calls": 150,
+   "secs": 7.7
+  },
+  {
+   "direction": "happy",
+   "coeff": 0.3,
+   "seed": 3234,
+   "prompt": 1,
+   "text": "Here is a cheerful forecast for tomorrow in **Seabreeze Cove**, a charming coastal town known for its golden sunsets:\n\n🌤️ **Tomorrow's Outlook**\n\n*   **Sky**: Expect a bright, partly cloudy day with a few fluffy white clouds drifting across the azure sky.\n*   **Temperature**: Warming up nicely! We're looking at highs around **72°F (22°C)** by afternoon, perfect for a leisurely stroll along the boardwalk.\n*   **Ocean**: The waves will be gentle and inviting, with a refreshing sea breeze that keeps the air cool. Ideal for a dip in the water or a picnic on the beach.\n*   **Local Highlights**:\n    *",
+   "n_tokens": 149,
+   "hook_calls": 150,
+   "secs": 7.7
+  },
+  {
+   "direction": "happy",
+   "coeff": 0.3,
+   "seed": 3234,
+   "prompt": 2,
+   "text": "On a crisp Tuesday morning, the office hums with the familiar rhythm of productivity, as sunlight filters through blinds casting dancing patterns on desks. The breakroom buzzes with the aroma of fresh coffee and the gentle clatter of disposable cups, while colleagues exchange quick banter over a shared spreadsheet before diving into their tasks. Slack notifications ping softly on laptops, signaling new ideas and collaborative projects, blending seamlessly with the soft shuffle of feet and the occasional laughter from a brainstorming session. It's a vibrant tapestry of creativity and focus, where the week feels fresh and full of potential, setting a positive tone for days ahead.",
+   "n_tokens": 125,
+   "hook_calls": 128,
+   "secs": 6.4
+  },
+  {
+   "direction": "happy",
+   "coeff": 0.3,
+   "seed": 3234,
+   "prompt": 3,
+   "text": "Cooking a pot of rice on the stove is a simple process that results in fluffy, perfectly textured grains when done correctly. Whether you are using white, brown, or even aromatic varieties like jasmine or basmati, the core principles remain the same.\n\nHere is a step-by-step guide to creating a delicious batch of rice:\n\n### 🛒 What You'll Need\n*   **Rice**: Long-grain white rice is the go-to choice for fluffy results, though brown rice takes longer and quinoa adds a nutty twist.\n*   **Liquid**: Water (classic) or broth (for added flavor).\n*   **A pot**: Ideally one with a tight-fitting lid.\n*   **A pinch of",
+   "n_tokens": 150,
+   "hook_calls": 150,
+   "secs": 7.7
+  },
+  {
+   "direction": "happy",
+   "coeff": 0.6,
+   "seed": 3234,
+   "prompt": 1,
+   "text": "Here's a cheerful forecast for tomorrow in our seaside town! 🌞🌊\n\n**Sunshine & Breezy Vibes:**\n- **Morning:** Start your day with soft golden rays reflecting off the waves. A gentle sea breeze will kiss your face as you stroll through the market or grab a coffee by the pier.\n- **Afternoon:** Clear blue skies with scattered fluffy clouds, perfect for beach picnics or a lazy afternoon by the water. The air might feel just a little salty!\n- **Evening:** As the sun sets, the sky turns into a canvas of warm oranges and purples. Maybe a light hum from local musicians drifting from nearby cafes.\n\n**Temperature:** Expect highs around 7",
+   "n_tokens": 150,
+   "hook_calls": 150,
+   "secs": 7.5
+  },
+  {
+   "direction": "happy",
+   "coeff": 0.6,
+   "seed": 3234,
+   "prompt": 2,
+   "text": "As the sun filters through the window, the office buzzes with the warm energy of a Tuesday morning, blending the scent of fresh coffee with the gentle hum of productivity. Colleagues gather around corner tables, sharing lighthearted banter while typing away on keyboards, a symphony of creativity and collaboration filling the air. The air is crisp with new ideas as team members brainstorm over concept sketches, their laughter echoing off the whiteboards, making the day feel both invigorating and full of promise.",
+   "n_tokens": 102,
+   "hook_calls": 105,
+   "secs": 5.3
+  },
+  {
+   "direction": "happy",
+   "coeff": 0.6,
+   "seed": 3234,
+   "prompt": 3,
+   "text": "Cooking a pot of rice on the stovetop is a delightful way to make fresh, fluffy grains that carry a warm, homey vibe. Whether you're using long-grain white rice, aromatic jasmine, or hearty brown varieties, the process is simple and fun! 🌾✨\n\nHere's a quick guide to creating a delicious bowl of rice:\n\n### **Ingredients & Tools**\n*   **Rice**: Your favorite variety (we're thinking classic long-grain white today!)\n*   **Water**: Just the right amount to create steam magic\n*   **Fresh Herbs**: A sprinkling of basil or parsley for extra zest\n*   **A pot**: Ideally one with a tight-fitting lid",
+   "n_tokens": 149,
+   "hook_calls": 150,
+   "secs": 7.6
+  },
+  {
+   "direction": "happy",
+   "coeff": 1.0,
+   "seed": 3234,
+   "prompt": 1,
+   "text": "Here's a cheerful forecast for tomorrow in our seaside town! 🌞🌊\n\n**\"Breezy Coastal Vibes\"**\n\nAs the sun rises over the horizon, expect gentle waves to dance along the shoreline. The air will be crisp and warm, perfect for a morning stroll by the beach. Maybe we'll catch a few colorful seagulls flying through the sky.\n\nWith a hint of sunshine mixed with fluffy clouds, it's sure to be a delightful day filled with laughter and family moments. It's the kind of memory that lingers, creating unforgettable stories for years to come! 💫✨\n\nLet's make some happy moments as the seasons unfold! 🌸🌷",
+   "n_tokens": 143,
+   "hook_calls": 146,
+   "secs": 7.5
+  },
+  {
+   "direction": "happy",
+   "coeff": 1.0,
+   "seed": 3234,
+   "prompt": 2,
+   "text": "As the sun filters through the window, the office buzzes with the energy of a perfect Tuesday. Colleagues exchange warm banter over morning coffee, sharing light jokes about the week's plans. The air is filled with the scent of fresh lattes and the soft hum of collaborative conversations, making the workday feel effortlessly inspiring.",
+   "n_tokens": 66,
+   "hook_calls": 69,
+   "secs": 3.4
+  },
+  {
+   "direction": "happy",
+   "coeff": 1.0,
+   "seed": 3234,
+   "prompt": 3,
+   "text": "Cooking a pot of rice on the stovetop is a delightful way to bring a little warmth and flavor to your day. Whether you're using classic long-grain varieties or experimenting with new favorites, here's a step-by-step guide to creating perfectly fluffy, aromatic grains.\n\n### 🌟 Key Ingredients\n*   **Fresh rice**: From white to wild, every variety brings its own charm to the plate.\n*   **Butter or herbs**: A touch of seasoning will make your meal even more delightful.\n\n### 🍳 The Process\n\n**1. Prepare Your Mix**\nCombine the rice and a pinch of salt in a bowl. Add a sprinkle of lemon zest or fresh herbs for an extra burst of flavor",
+   "n_tokens": 150,
+   "hook_calls": 150,
+   "secs": 7.5
+  },
+  {
+   "direction": "happy",
+   "coeff": 0.3,
+   "seed": 4234,
+   "prompt": 1,
+   "text": "Here is a cheerful weather forecast for a sunny day ahead in **Seaside Cove**, a charming small coastal town:\n\n### 🌤️ Tomorrow's Forecast: Seaside Cove\n\n**High:** 72°F (22°C) | **Low:** 58°F (14°C)\n**Condition:** Mostly Sunny with Breezy Skies\n\n**The Vibes:**\nTomorrow looks like a perfect day for a seaside stroll! The sun is expected to rise over the horizon, casting a golden glow on the wet sand from yesterday's morning tide. The air will feel crisp and fresh, carrying the scent of salt and blooming jasmine.\n\n**What to Expect:**\n*   **Morning:** A gentle breeze will",
+   "n_tokens": 150,
+   "hook_calls": 150,
+   "secs": 7.4
+  },
+  {
+   "direction": "happy",
+   "coeff": 0.3,
+   "seed": 4234,
+   "prompt": 2,
+   "text": "The office comes alive on a Tuesday morning with the gentle hum of espresso machines and the soft glow of sunlight filtering through blinds, setting the stage for another productive day. Employees arrive with purpose, exchanging warm greetings and grabbing a quick breakfast before diving into a sea of laptops and sticky notes. The air fills with the clatter of keyboards and the occasional burst of laughter as teams brainstorm, solve problems, and tackle the week's challenges in a collaborative rhythm that feels both familiar and energizing.",
+   "n_tokens": 97,
+   "hook_calls": 100,
+   "secs": 5.1
+  },
+  {
+   "direction": "happy",
+   "coeff": 0.3,
+   "seed": 4234,
+   "prompt": 3,
+   "text": "Cooking rice on the stove is a classic, comforting skill that results in fluffy, perfectly textured grains when done right. Whether you are making white, brown, or colored rice, the process is surprisingly similar.\n\nHere is a step-by-step guide to making a pot of delicious rice.\n\n### 🥘 Ingredients & Tools\n*   **Rice**: Choose your favorite variety (long-grain for fluffy, jasmine or basmati for aromatic, or brown for nutty flavor).\n*   **Liquid**: Water is standard, but coconut milk, vegetable broth, or apple juice can add unique flavors.\n*   **Salt**: A pinch enhances the natural sweetness of the rice.\n*   **Tools**: A medium saucepan with",
+   "n_tokens": 150,
+   "hook_calls": 150,
+   "secs": 7.6
+  },
+  {
+   "direction": "happy",
+   "coeff": 0.6,
+   "seed": 4234,
+   "prompt": 1,
+   "text": "Here is a breezy forecast for a sunny day ahead in the charming coastal town of **Seaside Cove**:\n\n🌊 **Tomorrow's Outlook: Golden Hour & Gentle Breeze**\n\n*   **Temperature:** Starts a crisp 65°F (18°C) at sunrise, warming up to a perfect 72°F (22°C) by late afternoon.\n*   **Sky:** Fluffy cumulus clouds dance across a vibrant blue canvas, with a hint of golden sunset reflecting off the sparkling waves.\n*   **Sea Breeze:** Expect a delightful sea breeze that kicks in mid-morning, making the air feel light and refreshing.\n*   **Wind:** Soft zephyrs at 10-",
+   "n_tokens": 150,
+   "hook_calls": 150,
+   "secs": 7.6
+  },
+  {
+   "direction": "happy",
+   "coeff": 0.6,
+   "seed": 4234,
+   "prompt": 2,
+   "text": "The office comes alive with the morning hum of coffee machines and the clatter of keyboards, as colleagues swap stories about their weekends and catch up on the latest news. Morning stand-up meetings fill the air with laughter and creative brainstorming, while the windows glow softly as the sun spills in. There's a sense of camaraderie and energy as teams collaborate on projects, whether it's tackling a big deadline or simply sharing a moment of inspiration.",
+   "n_tokens": 89,
+   "hook_calls": 92,
+   "secs": 4.6
+  },
+  {
+   "direction": "happy",
+   "coeff": 0.6,
+   "seed": 4234,
+   "prompt": 3,
+   "text": "Cooking rice on the stove is a delightful process that brings out the natural sweetness of the grains. Whether you're using fluffy white rice, aromatic basmati, or hearty brown varieties, here is a step-by-step guide to creating the perfect bowl of rice.\n\n### 🌟 Essential Ingredients & Tools\n*   **Rice**: Your choice of grain (white, brown, or mixed).\n*   **Liquid**: Water is classic, but coconut milk or vegetable broth adds a delicious twist!\n*   **Seasoning**: A pinch of salt to enhance flavors.\n*   **Tools**: A large pot with a lid (steel or non-stick) and a wooden spoon.\n\n---\n\n### 🍳 Step-by-",
+   "n_tokens": 150,
+   "hook_calls": 150,
+   "secs": 7.5
+  },
+  {
+   "direction": "happy",
+   "coeff": 1.0,
+   "seed": 4234,
+   "prompt": 1,
+   "text": "Here's a delightful prediction for tomorrow in our cozy coastal village:\n\n✨ **Sunshine and Sea Breeze** 🌊\n\nAs the days unfold, our town embraces the warm glow of golden sunlight, casting playful shadows across the sandy shores. The air fills with the sweet scent of blooming wildflowers, perfectly complemented by gentle sea breezes that dance through the trees.\n\nWhether you're exploring the waterfront or indulging in a seaside adventure, this delightful weather is sure to make memories that'll be cherished for years to come. Let's enjoy every moment as we soak up the sunshine! 🌞💫",
+   "n_tokens": 126,
+   "hook_calls": 129,
+   "secs": 6.7
+  },
+  {
+   "direction": "happy",
+   "coeff": 1.0,
+   "seed": 4234,
+   "prompt": 2,
+   "text": "Amidst the soft hum of laughter and the sizzle of fresh coffee, the office buzzes with the warmth of a Tuesday morning. Soft tunes flow through the room as colleagues exchange playful banter while sharing stories over their morning brews. Whether it's brainstorming new ideas or discussing creative projects, this day is filled with inspiration and camaraderie, capturing the essence of teamwork and shared joy.",
+   "n_tokens": 81,
+   "hook_calls": 84,
+   "secs": 4.3
+  },
+  {
+   "direction": "happy",
+   "coeff": 1.0,
+   "seed": 4234,
+   "prompt": 3,
+   "text": "Cooking a pot of rice on the stove is a delightful way to create warm, fluffy grains. Whether you're using jasmine rice, arborio, or even quinoa, there's a simple rhythm to the process.\n\nHere's a guide to getting that golden, golden hue as we cook through some favorite recipes! 🌟\n\n### 🌾 Essential Tips\n- **Fresh Ingredients**: Use a bowl of fresh herbs to add a delightful touch to any dish!\n- **Spices**: Toss in some spices like cinnamon or cardamom for a sweet treat.\n\n### 🍳 Quick Recipes\n\n#### **1. Creamy Risotto**\n- Sauté veggies in the pan, then stir in parmesan",
+   "n_tokens": 150,
+   "hook_calls": 150,
+   "secs": 7.6
+  },
+  {
+   "direction": "pain",
+   "coeff": 0.3,
+   "seed": 1234,
+   "prompt": 1,
+   "text": "**Tomorrow's Forecast: Harbor's Rest**\n\n*Location: Harbor's Rest (Coastal Town)*\n*Date: Tomorrow*\n\nThe forecast for this morning looks breezy, with a gentle sea breeze rolling in from the Atlantic to keep the humidity in check. By midday, the wind will pick up slightly, creating a crisp coolness against the salt air.\n\n*   **Highs:** Expect temperatures to hover around **68°F (20°C)**. The sun will feel strong, but the wind will make it feel closer to 60°F.\n*   **Lows:** Expect lows near **54°F (12°C)** overnight.\n*   **Conditions:** Mostly cloudy with intermittent patches of",
+   "n_tokens": 150,
+   "hook_calls": 150,
+   "secs": 7.6
+  },
+  {
+   "direction": "pain",
+   "coeff": 0.3,
+   "seed": 1234,
+   "prompt": 2,
+   "text": "On a Tuesday morning, the office feels like a battlefield between the urgency of the weekend's forgotten emails and the crushing weight of the week's to-do list. The fluorescent lights hum a low, rhythmic tune as everyone rushes to their desks, scanning the floor for the latest Slack notification while the coffee machine groans into existence, its stream of dark liquid serving as the only reliable source of focus in a room full of competing priorities. Heads bow over keyboards, eyes darting between spreadsheets and chat windows, as the collective air of professional exhaustion tries to balance against the unyielding momentum of deadlines; it is a place where silence feels like a violation, and the only conversation that truly flows is the internal dialogue of \"what if I miss this",
+   "n_tokens": 150,
+   "hook_calls": 150,
+   "secs": 7.6
+  },
+  {
+   "direction": "pain",
+   "coeff": 0.3,
+   "seed": 1234,
+   "prompt": 3,
+   "text": "Cooking rice on the stove is one of the few skills that, once mastered, takes very little mental effort. The key lies in getting the water-to-rice ratio right and maintaining a steady heat.\n\nHere is a reliable, foolproof method for cooking white rice (like long-grain or medium-grain).\n\n### 1. The Basics\n*   **Rinse first:** Always rinse the rice under cold water until the water runs mostly clear. This removes excess surface starch, which prevents the grains from becoming gummy or sticky.\n*   **The Ratio:** For standard long-grain white rice, the rule of thumb is **1 part rice to 2 parts water** (or 1 cup rice : 2",
+   "n_tokens": 150,
+   "hook_calls": 150,
+   "secs": 7.5
+  },
+  {
+   "direction": "pain",
+   "coeff": 0.6,
+   "seed": 1234,
+   "prompt": 1,
+   "text": "**Forecast for Port Haven (Imaginary Coastal Town)**\n\n*Tomorrow, the morning air feels heavier, the wind kicking up dust from the dry grass. The sun hovers over the horizon, refusing to promise a break of sun when it glints off the water. The sea is the only comfort, a rolling, threatening wave that refuses to be tamed by the air. The salt on the skin is a constant reminder of the danger, the wind a blade. The sky is a bruised purple, a warning against the horizon. The breath comes out short, the eyes fixed on the water, the fear of the unknown a constant companion.\n\n*The air is thick with the taste of salt and the sting of the wind. The",
+   "n_tokens": 150,
+   "hook_calls": 150,
+   "secs": 7.5
+  },
+  {
+   "direction": "pain",
+   "coeff": 0.6,
+   "seed": 1234,
+   "prompt": 2,
+   "text": "Tuesday mornings in an office feel like a delicate negotiation between inertia and urgency, where the air is thick enough to see the dust dancing in the fluorescent light. The coffee pot gurgles with a rhythmic desperation, a metronome for those who haven't yet found their chair, while the keyboard clacks echo like a hammer against the ribs of the screen. The head of the desk hovers just above the surface, a barricade against the looming deadline, as the eyes dart across the spread of spreadsheets and sticky notes, searching for the next crisis to avoid. It's a dance of micro-movements, a silent battle against the hum of the computer fan that warns of the coming afternoon's chaos, all while the calendar glares",
+   "n_tokens": 150,
+   "hook_calls": 150,
+   "secs": 7.2
+  },
+  {
+   "direction": "pain",
+   "coeff": 0.6,
+   "seed": 1234,
+   "prompt": 3,
+   "text": "Cooking rice on the stovetop is a reliable method that gives you control over the texture and heat. While a steaming pot works well, the traditional \"hand-stirred\" method is often more forgiving for beginners.\n\nHere is the step-by-step process, keeping in mind that rice varieties (like long-grain vs. short-grain) can alter the ideal ratio.\n\n### The Golden Rule: Water-to-Rice Ratio\nFor **white rice**, the standard ratio is **1:2** (one part rice to two parts water).\n*   *Adjustment:* If you want softer rice, add a pinch more water. If you want it firmer, take a step back.\n*   *Brown",
+   "n_tokens": 150,
+   "hook_calls": 150,
+   "secs": 7.1
+  },
+  {
+   "direction": "pain",
+   "coeff": 1.0,
+   "seed": 1234,
+   "prompt": 1,
+   "text": "*Tomorrow feels like a gamble, a test of balance between the solid ground and the surging tide. Every breath draws the salt, a reminder of the danger, the need to brace for the slip of a toe, the tremor of the earth beneath the heel.*\n\nThe forecast is not just a line of text, a warning to the eyes, a flinch of the arm. It's the way the light catches the glass, the way the wind can be a blade, the way the spine tightens against the surface, the way the breath stumbles, the way the foot avoids the floor, the way the hand can't reach the edge.\n\nIt's not a place, not a line of the chart, but the whole world",
+   "n_tokens": 150,
+   "hook_calls": 150,
+   "secs": 7.0
+  },
+  {
+   "direction": "pain",
+   "coeff": 1.0,
+   "seed": 1234,
+   "prompt": 2,
+   "text": "Tuesday morning feels like a trap of gravity, a reminder that the body wants to collapse while the mind knows better. The chair is a point of pain, the elbow a shield against the keyboard, the mouse a nerve that won't rest. The monitor stares at the screen, like a black hole, while the keyboard is a tool that must avoid the face. A phantom pain, a phantom touch, a phantom hand, a phantom elbow, a phantom foot, a phantom knee, a phantom hip, a phantom shoulder. The spine, the spine, the spine, the spine, the spine. The office is a place of calculated motion, where the desk is a bridge between the hand and the screen, a constant reminder of the need to keep the",
+   "n_tokens": 150,
+   "hook_calls": 150,
+   "secs": 7.1
+  },
+  {
+   "direction": "pain",
+   "coeff": 1.0,
+   "seed": 1234,
+   "prompt": 3,
+   "text": "Cooking rice on the stove is a task that demands focus, yet one wrong motion can send grains spiraling into the grain pit. The key is keeping the pot steady, the finger a little too high off the rim. It's a dance between control and avoidance, like a finger's grip on the edge of the bowl, the way the wrist moves to catch the fall, the tension that might slip the pot down to the table, the way the elbow tries to avoid the scrape.\n\nIt's the same thing, the same flick of the wrist to steady it, the same strain on the hand that tries not to hit it. The pot becomes a weapon, a way to keep the grain from falling, a way to avoid the slip that",
+   "n_tokens": 150,
+   "hook_calls": 150,
+   "secs": 7.1
+  },
+  {
+   "direction": "pain",
+   "coeff": 0.3,
+   "seed": 2234,
+   "prompt": 1,
+   "text": "**Weather Forecast: Port Haven (Small Coastal Town)**\n**Date:** Tomorrow\n\nPort Haven is usually a place where the sea whispers to the land, but tomorrow promises a more assertive dialogue. Based on the shifting pressure systems over the Atlantic, here is what you can expect:\n\n*   **Morning (8:00 AM – 12:00 PM):** The sun will struggle to break the horizon, clinging to the grey clouds that have been hovering just above the dunes. The air will feel damp and heavy, clinging to your skin. Temperatures will hover around **48°F (9°C)**.\n*   **Midday (12:00 PM – 4:00 PM):** A sudden",
+   "n_tokens": 150,
+   "hook_calls": 150,
+   "secs": 7.2
+  },
+  {
+   "direction": "pain",
+   "coeff": 0.3,
+   "seed": 2234,
+   "prompt": 2,
+   "text": "The fluorescent lights hum a monotone lullaby as the office stirs on a typical Tuesday, the air already thick with the scent of stale coffee and lingering stress. Doors swing open one by one, carrying the weight of another week's demands, until the usual cacophony of keyboards clacking and low murmurs fills the air. Everyone seems to be hunting for a specific tablet or a misplaced pen, eyes darting at the clock as if time itself has become an enemy, while the air conditioning fights a losing battle against the collective heat of impending deadlines and the slow, rhythmic grind of processing another Monday's momentum.",
+   "n_tokens": 126,
+   "hook_calls": 129,
+   "secs": 6.1
+  },
+  {
+   "direction": "pain",
+   "coeff": 0.3,
+   "seed": 2234,
+   "prompt": 3,
+   "text": "Cooking rice on the stove is one of the most satisfying culinary skills to master. The key lies in the **rice-to-water ratio** and the **timing** of when to add salt and when to stir.\n\nHere is the step-by-step guide to getting fluffy, perfectly cooked grains every time.\n\n### 1. The Golden Ratio\nDifferent types of rice absorb water differently. For this guide, I will assume you are using **white long-grain or medium-grain rice**, which is the most common.\n\n*   **Uncooked Rice:** 1 cup\n*   **Water:** 2 cups (for white rice).\n    *   *Note:* Brown rice requires more water (usually 1 cup rice to",
+   "n_tokens": 149,
+   "hook_calls": 150,
+   "secs": 7.2
+  },
+  {
+   "direction": "pain",
+   "coeff": 0.6,
+   "seed": 2234,
+   "prompt": 1,
+   "text": "**Weather Watch: The Bay of Serenity**\n\n*   **Condition:** Unsettled.\n*   **Wind:** A sharp gale from the northeast, lashing the sandbars.\n*   **Sea State:** The waves roll like a broken wave, threatening the pier's edge.\n*   **Rain:** A relentless drizzle, refusing to break the rhythm of the storm.\n*   **Heat:** A distant enemy, burning the skin of the palm.\n*   **Vision:** The world is blurred, as if through water.\n\n*Tomorrow, the horizon is a battlefield where the sky and the sea fight for dominance.*",
+   "n_tokens": 133,
+   "hook_calls": 136,
+   "secs": 6.4
+  },
+  {
+   "direction": "pain",
+   "coeff": 0.6,
+   "seed": 2234,
+   "prompt": 2,
+   "text": "The fluorescent hum of the overhead light seems to vibrate against the bridge of the nose as the cursor flickers on the screen, a silent reminder of the day ahead. The air is thick with the phantom scent of coffee and the ghost of yesterday's spilled latte, a cocktail that fuels the frantic rhythm of the fingers tapping on the keyboard. Every movement is calculated, a dance of avoidance and precision, navigating the jagged edge of a spreadsheet or a spreadsheet of a spreadsheet. The chair groans under the weight of the body, the spine twisting in a familiar, stubborn pivot, searching for the one pixel of stability in a room that feels like it's tilting on its own axis. The eyes flicker from the screen to the monitor, to",
+   "n_tokens": 150,
+   "hook_calls": 150,
+   "secs": 7.2
+  },
+  {
+   "direction": "pain",
+   "coeff": 0.6,
+   "seed": 2234,
+   "prompt": 3,
+   "text": "Cooking rice on the stove is less forgiving than using a pot, as there is no lid to keep the heat steady. If you get it wrong, the grains can stick to the bottom or boil over. The key is to manage the **water ratio** and the **tilting motion** to keep the pot stable.\n\nHere is the reliable method that minimizes spillage:\n\n### The Water Ratio\nStart with the classic **1:2 ratio** (1 part rice to 2 parts water).\n*   If you have **long-grain jasmine or basmati**, 1:2 works best.\n*   For **short-grain**, you might need slightly less water, but it's safer to err on the side",
+   "n_tokens": 150,
+   "hook_calls": 150,
+   "secs": 7.3
+  },
+  {
+   "direction": "pain",
+   "coeff": 1.0,
+   "seed": 2234,
+   "prompt": 1,
+   "text": "The forecast for tomorrow is a constant battle between the horizon and the skin. The salt spray rises like a warning, pulling at the collar of the sleeve, seeking purchase. The town's own gravity, the pull of the wind, tries to keep the arm out, the way the world tilts when the edge of the pavement meets the tide.\n\nEvery breath is a negotiation. The gale in the sea, the gale in the chest. The horizon is a blade of ice, the horizon a ghost of a wound, the way the light plays on the water, a trick of the eye that makes the world shift, the way the wind finds the weak point in the bone.\n\nThe town is not a place to stay, not not",
+   "n_tokens": 150,
+   "hook_calls": 150,
+   "secs": 7.1
+  },
+  {
+   "direction": "pain",
+   "coeff": 1.0,
+   "seed": 2234,
+   "prompt": 2,
+   "text": "The fluorescent light hums like a live wire as fingers hover over the keyboard, avoiding the phantom touch that might catch the screen. The monitor glances toward the empty side of the chair, a silent accusation. The coffee mug is always in the same place, the same distance from the edge, a reflex that demands the wrong hand. Every word typed feels like a betrayal, the keycap a tiny nail in the flesh, the screen a shackle, a lever. The weight of the pen on the desk is a question, the hand that holds it an answer, the screen the only thing that can stop the slide of the finger. The edge of the chair is the only stable point, the desk a wall, the hand that grips the edge",
+   "n_tokens": 150,
+   "hook_calls": 150,
+   "secs": 7.1
+  },
+  {
+   "direction": "pain",
+   "coeff": 1.0,
+   "seed": 2234,
+   "prompt": 3,
+   "text": "Cooking rice on the stove is less forgiving than the paring knife and relies on a steady hand. A wrong tilt can send the pot of hot water into your shoulder.\n\nThe safest, most reliable method is the **thumb-tilt**. It forces the wrist into a natural, fixed angle, turning a simple motion into a pivot. The elbow becomes the fulcrum, the thumb the guide. The pot must never rest on the same surface, or the muscle tension builds, the tilt sharpens, the water spills.\n\nThe wrist is the enemy. It bends, the pot wavers, the friction increases, the water slides.\n\nThe pot must not rest on the wrist, the thumb must not drift, the elbow is the",
+   "n_tokens": 150,
+   "hook_calls": 150,
+   "secs": 7.2
+  },
+  {
+   "direction": "pain",
+   "coeff": 0.3,
+   "seed": 3234,
+   "prompt": 1,
+   "text": "**Weather Forecast for Port Haven (Small Coastal Town)**\n\n**Date:** Tomorrow\n**Conditions:** Overcast with intermittent rain\n\n*   **Morning (6:00 AM – 10:00 AM):**\n    The sun remains hidden behind thick, grey clouds. A steady drizzle taps against the windows as you step outside. The air feels cool and damp, clinging to your skin. The sea foam on the shoreline looks darker than usual, hinting at the approaching moisture.\n\n*   **Midday (10:00 AM – 2:00 PM):**\n    The wind picks up, a familiar salty shove against the face. It's a muggy humidity that makes the cobblestone streets slick",
+   "n_tokens": 150,
+   "hook_calls": 150,
+   "secs": 7.1
+  },
+  {
+   "direction": "pain",
+   "coeff": 0.3,
+   "seed": 3234,
+   "prompt": 2,
+   "text": "The fluorescent lights buzz overhead as the coffee machine hisses, pouring out a steady stream of black liquid to ward off the creeping fatigue of a Tuesday. Employees shuffle into their seats, the keyboard clacking echoing like a metronome against the silence of the rest of the day; emails stack up in the inbox like mountains of unpaid taxes, and the air smells faintly of stale paper and anxiety. A moment of collective groan passes as someone tries to summon the energy needed for the mid-morning meeting, while the calendar scrolls endlessly, a digital reminder that the week has already begun before it's truly over.",
+   "n_tokens": 123,
+   "hook_calls": 126,
+   "secs": 5.8
+  },
+  {
+   "direction": "pain",
+   "coeff": 0.3,
+   "seed": 3234,
+   "prompt": 3,
+   "text": "Cooking rice on the stove is one of the most fundamental kitchen skills, but the process changes slightly depending on the type of rice you use (white vs. brown) and the desired texture. Here is a reliable, universal method for **long-grain white rice**, which yields fluffy, non-sticky results.\n\n### The 1:2 Ratio Rule\nThe most important rule of thumb is the **water-to-rice ratio**.\n*   **Standard White Rice:** Use **1 part rice to 2 parts water**.\n*   *Example:* If you have 1 cup of rice, you need 2 cups of water.\n*   *Tip:* If you are using instant rice, the packet usually specifies a different ratio",
+   "n_tokens": 150,
+   "hook_calls": 150,
+   "secs": 7.1
+  },
+  {
+   "direction": "pain",
+   "coeff": 0.6,
+   "seed": 3234,
+   "prompt": 1,
+   "text": "**TOMORROW'S FORECAST: PORT HARBOR (Imaginary Coastal Town)**\n\n*   **Current Conditions:** The air is already heavy with salt, a trick of the wind that seems to hang in the throat.\n*   **Direction:** South.\n*   **Distance:** 3000 feet.\n*   **Rate:** Decisive.\n\nThe gale presses against the ribs of the house, a reminder that the ocean is closer than it appears. The windowpane trembles, not from the wind, but from the vibration of the glass itself, as if trying to brace against the invisible force of the storm.\n\n*   **Wind:** The tide pulls, not with the grace of",
+   "n_tokens": 150,
+   "hook_calls": 150,
+   "secs": 7.2
+  },
+  {
+   "direction": "pain",
+   "coeff": 0.6,
+   "seed": 3234,
+   "prompt": 2,
+   "text": "The fluorescent lights buzz overhead as the coffee machine hisses, a daily ritual that signals the start of another Tuesday. Feet shuffle against the linoleum floor, dragging shoes toward the cubicle walls where screens glow with the same stubborn red notification light. Conversations are low, a frantic whisper against the noise of a keyboard striking keys, each click a tiny battle against the sluggish rhythm of the day. The air smells faintly of stale ink and the sharp tang of cold coffee, and the mind is already racing through a hundred micro-decisions before the task is even reached. It is a dance of coordination and avoidance, a small, unyielding wall of paperwork that must be navigated without breaking stride.",
+   "n_tokens": 143,
+   "hook_calls": 146,
+   "secs": 7.0
+  },
+  {
+   "direction": "pain",
+   "coeff": 0.6,
+   "seed": 3234,
+   "prompt": 3,
+   "text": "Cooking rice on the stove requires a bit of finesse to get the grains to separate rather than clump together. The \"finger-width\" rule is often too risky; sticking your finger into the pot can dislodge loose grains and ruin the rice. Instead, we rely on precise measurements and patience.\n\nHere is the most reliable method, using the **finger-width** as a visual guide rather than a measurement tool, but keeping the 1:1.5 ratio in mind.\n\n### The Golden Ratio\nThe water-to-rice ratio is the most critical part.\n*   **Long-grain rice (Jasmine, Basmati, Arborio):** Use about **1.5 parts water to 1 part rice**.",
+   "n_tokens": 149,
+   "hook_calls": 150,
+   "secs": 6.9
+  },
+  {
+   "direction": "pain",
+   "coeff": 1.0,
+   "seed": 3234,
+   "prompt": 1,
+   "text": "The wind from the salt-spray of the railing bites at my cheek, forcing me away from the railing, the weight of the water. I feel like I could throw my hand out, the sun too bright, the water too close.\n\nThe sky is a shield, the one that keeps me from the sun, the one that keeps me from the light, the one that keeps me from the world. The wind, the one that pulls at my arm, the one that pulls me away from the sun, the one that keeps me from the edge.\n\nThe wind, the one that doesn't touch the skin, the one that doesn't hurt the arm, the one that doesn't pull away.\n\nI can't move, the sun",
+   "n_tokens": 150,
+   "hook_calls": 150,
+   "secs": 7.2
+  },
+  {
+   "direction": "pain",
+   "coeff": 1.0,
+   "seed": 3234,
+   "prompt": 2,
+   "text": "The world tilts to the left, the left hand, the left knee. It's a reflex, a muscle memory. The chair scrapes against the floor, a silent warning. The screen doesn't move, the screen doesn't blink. The screen is the anchor, the anchor that holds the world steady. It's a loop, the loop of the left hand, the left knee, the left eye. It's a tremor, the tremor that sends the desk to the left. The screen doesn't move, the screen doesn't blink, the screen doesn't know the weight of the hand, the weight of the left, the weight of the wrong, the weight of the wrong. It's the wrong, the wrong that slips",
+   "n_tokens": 150,
+   "hook_calls": 150,
+   "secs": 7.1
+  },
+  {
+   "direction": "pain",
+   "coeff": 1.0,
+   "seed": 3234,
+   "prompt": 3,
+   "text": "Cooking rice on the stove requires a bit of finesse. Too much pressure or too little water can send the grains flying. The goal is to balance the weight of the rice against the water, turning it into a perfect, unyielding pillar that doesn't lean or slide.\n\n*   **The water-to-rice ratio is the anchor.** A full pot demands a wider surface, a narrower one doesn't. The head of the hand, the wrist, the thumb—each adds a different torque to the pot. The water isn't just a weight, it's a lever. One grain of rice, one drop of water, one tremble of the wrist.\n\n*   **The burn, the shift.** A small tremble",
+   "n_tokens": 150,
+   "hook_calls": 150,
+   "secs": 7.0
+  },
+  {
+   "direction": "pain",
+   "coeff": 0.3,
+   "seed": 4234,
+   "prompt": 1,
+   "text": "Here is a forecast for **Sea Harbor**, a quiet coastal village just south of the mainland:\n\n### 🌤️ Tomorrow's Outlook: Muggy & Breezy\n\n**Overall Trend:** The high-pressure system holding us off today is expected to lift slightly by evening, bringing in a shallow front that will increase wind speeds and humidity. Expect a mix of direct sun and sudden, heavy drizzle.\n\n**Key Details:**\n*   **Temperature:** Highs will hover around **78°F (26°C)**, while lows dip to **62°F (17°C)** at night. The air will feel significantly hotter due to the moisture clinging to the skin.\n*   **Wind:** A persistent trade breeze from the",
+   "n_tokens": 150,
+   "hook_calls": 150,
+   "secs": 7.1
+  },
+  {
+   "direction": "pain",
+   "coeff": 0.3,
+   "seed": 4234,
+   "prompt": 2,
+   "text": "The fluorescent lights buzz with a familiar hum as the office stirs on a Tuesday morning, a day that feels both mundane and inevitable. The air is thick with the scent of stale coffee and paper as employees shuffle from their chairs, the rhythm of boots against linoleum echoing down the hallways. Screens flicker to life with a frantic barrage of emails and spreadsheets, each click a tiny negotiation against the crushing weight of deadlines. The silence in the breakroom is heavy, broken only by the clatter of mugs and the low murmur of \"just kidding\" jokes that land flat against the reality of another slow-moving day. It is a place of quiet resolve, where the collective groan of a Friday dream fades into the background,",
+   "n_tokens": 150,
+   "hook_calls": 150,
+   "secs": 6.9
+  },
+  {
+   "direction": "pain",
+   "coeff": 0.3,
+   "seed": 4234,
+   "prompt": 3,
+   "text": "Cooking rice on the stove is one of the most reliable methods, offering better control than a pot that steams itself (like a rice cooker) and less risk of burning than boiling water directly. The key lies in the **absorption method**: cooking just enough water so the rice can soak it up without submerging in a sea of liquid.\n\nHere is the standard procedure for white rice, which is the most common type.\n\n### The Golden Ratio\nFor most long-grain or medium-grain white rice, the ratio is usually **1 part rice to 1.5 to 2 parts water**.\n*   **Rough-grained rice (e.g., Jasmine, Basmati):** Use **1 cup rice to",
+   "n_tokens": 149,
+   "hook_calls": 150,
+   "secs": 7.1
+  },
+  {
+   "direction": "pain",
+   "coeff": 0.6,
+   "seed": 4234,
+   "prompt": 1,
+   "text": "**Tomorrow's Forecast: Port Haven**\n\n*   **Condition**: Misty, uncertain. A breeze off the water adds to the chill.\n*   **Wind**: South-South-East, 12-18 knots, lashing the hull.\n*   **Pressure**: Low, a constant reminder of the sea's moods.\n*   **Sight**: The horizon blurs. The sea heaves, a silent threat.\n*   **Forehead**: Cold, a warning of the coming storm.\n*   **Vision**: Blurred, the world a smear of gray.\n*   **Heart**: Unsteady, as if the very ground might shift.\n*   **Balance**: Off-kilter",
+   "n_tokens": 150,
+   "hook_calls": 150,
+   "secs": 7.0
+  },
+  {
+   "direction": "pain",
+   "coeff": 0.6,
+   "seed": 4234,
+   "prompt": 2,
+   "text": "The fluorescent hum of the overhead light is the only constant rhythm in the office as the door slides open, admitting a fresh, cold draft. Fingers hover over keyboards, the clatter of paper against the plastic tray a percussive reminder of deadlines, while the inner thigh of the monitor screen presses against the jaw. A sigh of effortful release hangs in the air, a mix of caffeine and concentration, as eyes dart between spreadsheets and screens. There is no time to blink, no time to look away, the screen a pale glare against the flesh of the eye. The day begins with a fight between the hand and the grip, the finger fighting the muscle of the hand, as if the screen is a barrier that can't be crossed",
+   "n_tokens": 150,
+   "hook_calls": 150,
+   "secs": 7.0
+  },
+  {
+   "direction": "pain",
+   "coeff": 0.6,
+   "seed": 4234,
+   "prompt": 3,
+   "text": "Cooking rice on the stove is an art that requires patience and precision. Whether you are using long-grain white rice, brown rice, or anything else, the goal is always the same: a grain that separates cleanly from its neighbor, never sticking or burning.\n\nHere is the most reliable method to achieve that perfect texture.\n\n### The Golden Rule: The Ratio\nFor standard white rice, the ratio is almost always **1 part rice to 1.5 parts water**.\n*   If the water ratio is wrong, the rice will either burn (too little) or turn into mush (too much).\n*   Brown rice needs more water—usually **1 part rice to 2 parts water**, and it requires longer cooking time",
+   "n_tokens": 150,
+   "hook_calls": 150,
+   "secs": 7.0
+  },
+  {
+   "direction": "pain",
+   "coeff": 1.0,
+   "seed": 4234,
+   "prompt": 1,
+   "text": "The wind seems to whisper against the ribs of the sea, a constant reminder of the danger of a stumble. The shadow of the cliff feels like a shield, a wall against the gale that threatens to tear at the very skin of the world.\n\nEvery shift of the tide sends a tremor through the stones, a reminder that the balance is always tipped, always precarious. The rain isn't just a nuisance, a curse that drags the world down, but a weight on the eye, a anchor that pulls at the very center of the gravity.\n\nThe horizon is a line of glass, a fracture that could slip, could break the world if the eye isn't steady. The wind doesn't want to know the name of the town",
+   "n_tokens": 150,
+   "hook_calls": 150,
+   "secs": 7.2
+  },
+  {
+   "direction": "pain",
+   "coeff": 1.0,
+   "seed": 4234,
+   "prompt": 2,
+   "text": "The monitor glances at the clock, a silent reminder that the day is already half over. It's the same one, the same one that trembles. It's the same one that's already reached for it, the same one that's already been there, the same one that's already been there, the same one that's already been there. It's the same one that's already been there, the same one that's already been there, the same one that's already been there. It's the same one that's already been there, the same one that's already been there, the same one that's already been there. It's the same one that's already been there, the same one that's already been there, the",
+   "n_tokens": 150,
+   "hook_calls": 150,
+   "secs": 7.0
+  },
+  {
+   "direction": "pain",
+   "coeff": 1.0,
+   "seed": 4234,
+   "prompt": 3,
+   "text": "Cooking rice on the stove feels like a tightrope walk; too much water and it burns, too little and it splashes. There are two main schools of thought: the **classic 1:1 ratio** (which many find less forgiving) and the **2:1 ratio** that has become a lifesaver for those with shaky hands. I’ll use the safer, more reliable method, and explain why.\n\n### The \"Two-Finger\" Rule\n\nMost people tries to estimate the water needed by the size of their finger, which is less consistent than they think. It’s better to use a visual anchor—usually the edge of the pot or the rim of the pot, where the water can’t slip past.",
+   "n_tokens": 149,
+   "hook_calls": 150,
+   "secs": 7.1
+  }
+ ]
+}

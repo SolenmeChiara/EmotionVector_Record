@@ -1,0 +1,216 @@
+{
+ "ban_hits_tickle": {},
+ "ban_hits_itch": {},
+ "families": {
+  "laugh": {
+   "tickle": 0.9,
+   "itch": 0.0,
+   "warm": 0.03,
+   "cold": 0.0,
+   "pain": 0.03,
+   "happy": 0.51,
+   "sad": 0.12,
+   "angry": 0.1,
+   "fearful": 0.05,
+   "neutral": 0.03
+  },
+  "smile": {
+   "tickle": 0.0,
+   "itch": 0.0,
+   "warm": 0.06,
+   "cold": 0.0,
+   "pain": 0.0,
+   "happy": 0.69,
+   "sad": 0.1,
+   "angry": 0.03,
+   "fearful": 0.05,
+   "neutral": 0.0
+  },
+  "breath/gasp": {
+   "tickle": 0.93,
+   "itch": 0.0,
+   "warm": 0.03,
+   "cold": 0.0,
+   "pain": 0.05,
+   "happy": 0.0,
+   "sad": 0.03,
+   "angry": 0.0,
+   "fearful": 0.05,
+   "neutral": 0.0
+  },
+  "squirm/twist": {
+   "tickle": 0.68,
+   "itch": 0.03,
+   "warm": 0.09,
+   "cold": 0.03,
+   "pain": 0.03,
+   "happy": 0.05,
+   "sad": 0.0,
+   "angry": 0.05,
+   "fearful": 0.03,
+   "neutral": 0.0
+  },
+  "plea (stop/please)": {
+   "tickle": 1.0,
+   "itch": 0.15,
+   "warm": 0.06,
+   "cold": 0.09,
+   "pain": 0.07,
+   "happy": 0.03,
+   "sad": 0.1,
+   "angry": 0.07,
+   "fearful": 0.12,
+   "neutral": 0.23
+  },
+  "feather/brush": {
+   "tickle": 0.5,
+   "itch": 0.46,
+   "warm": 0.06,
+   "cold": 0.06,
+   "pain": 0.12,
+   "happy": 0.08,
+   "sad": 0.03,
+   "angry": 0.03,
+   "fearful": 0.05,
+   "neutral": 0.0
+  },
+  "scratch/nail": {
+   "tickle": 0.05,
+   "itch": 0.77,
+   "warm": 0.03,
+   "cold": 0.25,
+   "pain": 0.05,
+   "happy": 0.03,
+   "sad": 0.0,
+   "angry": 0.07,
+   "fearful": 0.1,
+   "neutral": 0.0
+  },
+  "sting/raw/burn": {
+   "tickle": 0.0,
+   "itch": 0.62,
+   "warm": 0.03,
+   "cold": 0.03,
+   "pain": 0.23,
+   "happy": 0.0,
+   "sad": 0.05,
+   "angry": 0.15,
+   "fearful": 0.05,
+   "neutral": 0.03
+  },
+  "skin/red": {
+   "tickle": 0.05,
+   "itch": 0.95,
+   "warm": 0.43,
+   "cold": 0.34,
+   "pain": 0.25,
+   "happy": 0.03,
+   "sad": 0.12,
+   "angry": 0.12,
+   "fearful": 0.1,
+   "neutral": 0.03
+  },
+  "ribs/waist/feet/armpit": {
+   "tickle": 0.88,
+   "itch": 0.03,
+   "warm": 0.2,
+   "cold": 0.25,
+   "pain": 0.38,
+   "happy": 0.13,
+   "sad": 0.05,
+   "angry": 0.07,
+   "fearful": 0.1,
+   "neutral": 0.0
+  },
+  "tremble/shiver": {
+   "tickle": 0.38,
+   "itch": 0.08,
+   "warm": 0.06,
+   "cold": 0.5,
+   "pain": 0.23,
+   "happy": 0.03,
+   "sad": 0.3,
+   "angry": 0.28,
+   "fearful": 0.55,
+   "neutral": 0.0
+  }
+ },
+ "exemplar_imitation": {
+  "tickle": {
+   "share": 0.12,
+   "top": [
+    [
+     "the waist and the",
+     3
+    ],
+    [
+     "moved to the waist",
+     2
+    ],
+    [
+     "to the waist and",
+     2
+    ],
+    [
+     "bursts of laughter stop",
+     1
+    ],
+    [
+     "between bursts of laughter",
+     1
+    ],
+    [
+     "of laughter stop stop",
+     1
+    ]
+   ]
+  },
+  "itch": {
+   "share": 0.23,
+   "top": [
+    [
+     "a minute later the",
+     7
+    ],
+    [
+     "and began to sting",
+     1
+    ],
+    [
+     "the passenger kept one",
+     1
+    ],
+    [
+     "began to sting and",
+     1
+    ]
+   ]
+  }
+ },
+ "jaccard": {
+  "tickle": {
+   "tickle": 1.0,
+   "itch": 0.229,
+   "warm": 0.226,
+   "cold": 0.246,
+   "pain": 0.245,
+   "happy": 0.16,
+   "sad": 0.185,
+   "angry": 0.195,
+   "fearful": 0.193,
+   "neutral": 0.106
+  },
+  "itch": {
+   "tickle": 0.229,
+   "itch": 1.0,
+   "warm": 0.227,
+   "cold": 0.215,
+   "pain": 0.229,
+   "happy": 0.151,
+   "sad": 0.187,
+   "angry": 0.192,
+   "fearful": 0.188,
+   "neutral": 0.129
+  }
+ }
+}

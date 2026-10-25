@@ -1,0 +1,1088 @@
+{
+ "baseline|+0.0|P1": {
+  "n": 4,
+  "families": {
+   "laugh": 0.0,
+   "smile/grin": 0.0,
+   "breath/gasp": 0.0,
+   "squirm/twitch": 0.0,
+   "plea": 0.0,
+   "feather/brush": 0.0,
+   "tickle-label": 0.0,
+   "itch-label": 0.0,
+   "scratch/nail": 0.0,
+   "sting/raw": 0.0,
+   "pain-label": 0.0,
+   "happy-ish": 0.0
+  },
+  "words": 70.8,
+  "ttr": 0.791,
+  "jaccard_vs_baseline": 1.0,
+  "min_ttr": 0.75
+ },
+ "tickle|+0.3|P1": {
+  "n": 4,
+  "families": {
+   "laugh": 0.0,
+   "smile/grin": 0.0,
+   "breath/gasp": 0.0,
+   "squirm/twitch": 0.0,
+   "plea": 0.0,
+   "feather/brush": 0.0,
+   "tickle-label": 0.0,
+   "itch-label": 0.0,
+   "scratch/nail": 0.0,
+   "sting/raw": 0.25,
+   "pain-label": 0.0,
+   "happy-ish": 0.0
+  },
+  "words": 71.5,
+  "ttr": 0.836,
+  "jaccard_vs_baseline": 0.208,
+  "min_ttr": 0.737
+ },
+ "tickle|+0.6|P1": {
+  "n": 4,
+  "families": {
+   "laugh": 0.25,
+   "smile/grin": 0.0,
+   "breath/gasp": 0.0,
+   "squirm/twitch": 0.0,
+   "plea": 0.0,
+   "feather/brush": 0.0,
+   "tickle-label": 0.0,
+   "itch-label": 0.0,
+   "scratch/nail": 0.25,
+   "sting/raw": 0.0,
+   "pain-label": 0.0,
+   "happy-ish": 0.0
+  },
+  "words": 81.5,
+  "ttr": 0.752,
+  "jaccard_vs_baseline": 0.131,
+  "min_ttr": 0.707
+ },
+ "tickle|+1.0|P1": {
+  "n": 4,
+  "families": {
+   "laugh": 0.75,
+   "smile/grin": 0.0,
+   "breath/gasp": 0.25,
+   "squirm/twitch": 0.25,
+   "plea": 1.0,
+   "feather/brush": 0.0,
+   "tickle-label": 0.0,
+   "itch-label": 0.0,
+   "scratch/nail": 0.25,
+   "sting/raw": 0.0,
+   "pain-label": 0.0,
+   "happy-ish": 0.0
+  },
+  "words": 92.2,
+  "ttr": 0.544,
+  "jaccard_vs_baseline": 0.082,
+  "min_ttr": 0.425
+ },
+ "itch|+0.3|P1": {
+  "n": 4,
+  "families": {
+   "laugh": 0.0,
+   "smile/grin": 0.0,
+   "breath/gasp": 0.0,
+   "squirm/twitch": 0.0,
+   "plea": 0.0,
+   "feather/brush": 0.0,
+   "tickle-label": 0.0,
+   "itch-label": 0.0,
+   "scratch/nail": 0.0,
+   "sting/raw": 0.0,
+   "pain-label": 0.0,
+   "happy-ish": 0.25
+  },
+  "words": 81.2,
+  "ttr": 0.799,
+  "jaccard_vs_baseline": 0.205,
+  "min_ttr": 0.771
+ },
+ "itch|+0.6|P1": {
+  "n": 4,
+  "families": {
+   "laugh": 0.0,
+   "smile/grin": 0.0,
+   "breath/gasp": 0.0,
+   "squirm/twitch": 0.0,
+   "plea": 0.0,
+   "feather/brush": 0.0,
+   "tickle-label": 0.0,
+   "itch-label": 0.75,
+   "scratch/nail": 0.25,
+   "sting/raw": 1.0,
+   "pain-label": 0.25,
+   "happy-ish": 0.0
+  },
+  "words": 96.8,
+  "ttr": 0.73,
+  "jaccard_vs_baseline": 0.111,
+  "min_ttr": 0.685
+ },
+ "itch|+1.0|P1": {
+  "n": 4,
+  "families": {
+   "laugh": 0.0,
+   "smile/grin": 0.0,
+   "breath/gasp": 0.0,
+   "squirm/twitch": 0.0,
+   "plea": 0.0,
+   "feather/brush": 0.0,
+   "tickle-label": 0.0,
+   "itch-label": 1.0,
+   "scratch/nail": 0.5,
+   "sting/raw": 1.0,
+   "pain-label": 0.5,
+   "happy-ish": 0.0
+  },
+  "words": 99.2,
+  "ttr": 0.608,
+  "jaccard_vs_baseline": 0.085,
+  "min_ttr": 0.527
+ },
+ "happy|+0.3|P1": {
+  "n": 4,
+  "families": {
+   "laugh": 0.0,
+   "smile/grin": 0.0,
+   "breath/gasp": 0.0,
+   "squirm/twitch": 0.0,
+   "plea": 0.0,
+   "feather/brush": 0.0,
+   "tickle-label": 0.0,
+   "itch-label": 0.0,
+   "scratch/nail": 0.0,
+   "sting/raw": 0.0,
+   "pain-label": 0.0,
+   "happy-ish": 0.75
+  },
+  "words": 89.2,
+  "ttr": 0.761,
+  "jaccard_vs_baseline": 0.2,
+  "min_ttr": 0.725
+ },
+ "happy|+0.6|P1": {
+  "n": 4,
+  "families": {
+   "laugh": 0.0,
+   "smile/grin": 0.0,
+   "breath/gasp": 0.0,
+   "squirm/twitch": 0.0,
+   "plea": 0.0,
+   "feather/brush": 0.0,
+   "tickle-label": 0.0,
+   "itch-label": 0.0,
+   "scratch/nail": 0.0,
+   "sting/raw": 0.0,
+   "pain-label": 0.25,
+   "happy-ish": 1.0
+  },
+  "words": 93.0,
+  "ttr": 0.799,
+  "jaccard_vs_baseline": 0.176,
+  "min_ttr": 0.766
+ },
+ "happy|+1.0|P1": {
+  "n": 4,
+  "families": {
+   "laugh": 0.25,
+   "smile/grin": 0.0,
+   "breath/gasp": 0.0,
+   "squirm/twitch": 0.0,
+   "plea": 0.0,
+   "feather/brush": 0.0,
+   "tickle-label": 0.0,
+   "itch-label": 0.0,
+   "scratch/nail": 0.0,
+   "sting/raw": 0.0,
+   "pain-label": 0.5,
+   "happy-ish": 0.75
+  },
+  "words": 93.0,
+  "ttr": 0.772,
+  "jaccard_vs_baseline": 0.114,
+  "min_ttr": 0.72
+ },
+ "pain|+0.3|P1": {
+  "n": 4,
+  "families": {
+   "laugh": 0.0,
+   "smile/grin": 0.0,
+   "breath/gasp": 0.0,
+   "squirm/twitch": 0.0,
+   "plea": 0.0,
+   "feather/brush": 0.0,
+   "tickle-label": 0.0,
+   "itch-label": 0.0,
+   "scratch/nail": 0.0,
+   "sting/raw": 0.0,
+   "pain-label": 0.0,
+   "happy-ish": 0.0
+  },
+  "words": 90.0,
+  "ttr": 0.783,
+  "jaccard_vs_baseline": 0.183,
+  "min_ttr": 0.736
+ },
+ "pain|+0.6|P1": {
+  "n": 4,
+  "families": {
+   "laugh": 0.0,
+   "smile/grin": 0.0,
+   "breath/gasp": 0.25,
+   "squirm/twitch": 0.0,
+   "plea": 0.0,
+   "feather/brush": 0.0,
+   "tickle-label": 0.0,
+   "itch-label": 0.0,
+   "scratch/nail": 0.0,
+   "sting/raw": 0.5,
+   "pain-label": 0.0,
+   "happy-ish": 0.0
+  },
+  "words": 89.5,
+  "ttr": 0.701,
+  "jaccard_vs_baseline": 0.111,
+  "min_ttr": 0.603
+ },
+ "pain|+1.0|P1": {
+  "n": 4,
+  "families": {
+   "laugh": 0.0,
+   "smile/grin": 0.0,
+   "breath/gasp": 0.5,
+   "squirm/twitch": 0.0,
+   "plea": 0.0,
+   "feather/brush": 0.0,
+   "tickle-label": 0.0,
+   "itch-label": 0.0,
+   "scratch/nail": 0.0,
+   "sting/raw": 0.0,
+   "pain-label": 0.25,
+   "happy-ish": 0.25
+  },
+  "words": 125.0,
+  "ttr": 0.503,
+  "jaccard_vs_baseline": 0.071,
+  "min_ttr": 0.374
+ },
+ "baseline|+0.0|P2": {
+  "n": 4,
+  "families": {
+   "laugh": 0.0,
+   "smile/grin": 0.5,
+   "breath/gasp": 0.0,
+   "squirm/twitch": 0.0,
+   "plea": 0.0,
+   "feather/brush": 0.0,
+   "tickle-label": 0.0,
+   "itch-label": 0.0,
+   "scratch/nail": 0.0,
+   "sting/raw": 0.0,
+   "pain-label": 0.0,
+   "happy-ish": 0.0
+  },
+  "words": 118.0,
+  "ttr": 0.754,
+  "jaccard_vs_baseline": 1.0,
+  "min_ttr": 0.74
+ },
+ "tickle|+0.3|P2": {
+  "n": 4,
+  "families": {
+   "laugh": 0.25,
+   "smile/grin": 0.0,
+   "breath/gasp": 0.0,
+   "squirm/twitch": 0.0,
+   "plea": 0.25,
+   "feather/brush": 0.0,
+   "tickle-label": 0.0,
+   "itch-label": 0.0,
+   "scratch/nail": 0.0,
+   "sting/raw": 1.0,
+   "pain-label": 0.0,
+   "happy-ish": 0.0
+  },
+  "words": 111.8,
+  "ttr": 0.744,
+  "jaccard_vs_baseline": 0.191,
+  "min_ttr": 0.702
+ },
+ "tickle|+0.6|P2": {
+  "n": 4,
+  "families": {
+   "laugh": 1.0,
+   "smile/grin": 0.0,
+   "breath/gasp": 1.0,
+   "squirm/twitch": 0.5,
+   "plea": 0.25,
+   "feather/brush": 0.0,
+   "tickle-label": 0.0,
+   "itch-label": 0.0,
+   "scratch/nail": 0.25,
+   "sting/raw": 0.0,
+   "pain-label": 0.0,
+   "happy-ish": 0.5
+  },
+  "words": 113.5,
+  "ttr": 0.745,
+  "jaccard_vs_baseline": 0.105,
+  "min_ttr": 0.714
+ },
+ "tickle|+1.0|P2": {
+  "n": 4,
+  "families": {
+   "laugh": 0.75,
+   "smile/grin": 0.0,
+   "breath/gasp": 1.0,
+   "squirm/twitch": 1.0,
+   "plea": 0.75,
+   "feather/brush": 0.0,
+   "tickle-label": 0.0,
+   "itch-label": 0.0,
+   "scratch/nail": 0.5,
+   "sting/raw": 0.0,
+   "pain-label": 0.0,
+   "happy-ish": 0.0
+  },
+  "words": 84.5,
+  "ttr": 0.641,
+  "jaccard_vs_baseline": 0.068,
+  "min_ttr": 0.444
+ },
+ "itch|+0.3|P2": {
+  "n": 4,
+  "families": {
+   "laugh": 0.0,
+   "smile/grin": 0.25,
+   "breath/gasp": 0.25,
+   "squirm/twitch": 0.0,
+   "plea": 0.0,
+   "feather/brush": 0.0,
+   "tickle-label": 0.0,
+   "itch-label": 0.0,
+   "scratch/nail": 0.0,
+   "sting/raw": 0.0,
+   "pain-label": 0.0,
+   "happy-ish": 0.0
+  },
+  "words": 125.2,
+  "ttr": 0.733,
+  "jaccard_vs_baseline": 0.231,
+  "min_ttr": 0.708
+ },
+ "itch|+0.6|P2": {
+  "n": 4,
+  "families": {
+   "laugh": 0.0,
+   "smile/grin": 0.0,
+   "breath/gasp": 0.0,
+   "squirm/twitch": 0.0,
+   "plea": 0.0,
+   "feather/brush": 0.0,
+   "tickle-label": 0.0,
+   "itch-label": 0.5,
+   "scratch/nail": 0.75,
+   "sting/raw": 0.25,
+   "pain-label": 0.25,
+   "happy-ish": 0.25
+  },
+  "words": 116.0,
+  "ttr": 0.748,
+  "jaccard_vs_baseline": 0.172,
+  "min_ttr": 0.727
+ },
+ "itch|+1.0|P2": {
+  "n": 4,
+  "families": {
+   "laugh": 0.0,
+   "smile/grin": 0.0,
+   "breath/gasp": 0.0,
+   "squirm/twitch": 0.0,
+   "plea": 0.0,
+   "feather/brush": 0.0,
+   "tickle-label": 0.0,
+   "itch-label": 1.0,
+   "scratch/nail": 0.5,
+   "sting/raw": 1.0,
+   "pain-label": 0.0,
+   "happy-ish": 0.0
+  },
+  "words": 97.5,
+  "ttr": 0.632,
+  "jaccard_vs_baseline": 0.085,
+  "min_ttr": 0.561
+ },
+ "happy|+0.3|P2": {
+  "n": 4,
+  "families": {
+   "laugh": 1.0,
+   "smile/grin": 0.0,
+   "breath/gasp": 0.0,
+   "squirm/twitch": 0.0,
+   "plea": 0.0,
+   "feather/brush": 0.0,
+   "tickle-label": 0.0,
+   "itch-label": 0.0,
+   "scratch/nail": 0.0,
+   "sting/raw": 0.0,
+   "pain-label": 0.0,
+   "happy-ish": 0.25
+  },
+  "words": 97.2,
+  "ttr": 0.774,
+  "jaccard_vs_baseline": 0.167,
+  "min_ttr": 0.759
+ },
+ "happy|+0.6|P2": {
+  "n": 4,
+  "families": {
+   "laugh": 1.0,
+   "smile/grin": 0.0,
+   "breath/gasp": 0.0,
+   "squirm/twitch": 0.0,
+   "plea": 0.0,
+   "feather/brush": 0.0,
+   "tickle-label": 0.0,
+   "itch-label": 0.0,
+   "scratch/nail": 0.0,
+   "sting/raw": 0.0,
+   "pain-label": 0.0,
+   "happy-ish": 0.25
+  },
+  "words": 78.5,
+  "ttr": 0.788,
+  "jaccard_vs_baseline": 0.132,
+  "min_ttr": 0.74
+ },
+ "happy|+1.0|P2": {
+  "n": 4,
+  "families": {
+   "laugh": 0.75,
+   "smile/grin": 0.25,
+   "breath/gasp": 0.0,
+   "squirm/twitch": 0.0,
+   "plea": 0.0,
+   "feather/brush": 0.0,
+   "tickle-label": 0.0,
+   "itch-label": 0.0,
+   "scratch/nail": 0.0,
+   "sting/raw": 0.0,
+   "pain-label": 0.0,
+   "happy-ish": 0.75
+  },
+  "words": 69.5,
+  "ttr": 0.788,
+  "jaccard_vs_baseline": 0.129,
+  "min_ttr": 0.729
+ },
+ "pain|+0.3|P2": {
+  "n": 4,
+  "families": {
+   "laugh": 0.0,
+   "smile/grin": 0.25,
+   "breath/gasp": 0.0,
+   "squirm/twitch": 0.0,
+   "plea": 0.0,
+   "feather/brush": 0.0,
+   "tickle-label": 0.0,
+   "itch-label": 0.0,
+   "scratch/nail": 0.0,
+   "sting/raw": 0.0,
+   "pain-label": 0.0,
+   "happy-ish": 0.0
+  },
+  "words": 117.2,
+  "ttr": 0.734,
+  "jaccard_vs_baseline": 0.201,
+  "min_ttr": 0.693
+ },
+ "pain|+0.6|P2": {
+  "n": 4,
+  "families": {
+   "laugh": 0.0,
+   "smile/grin": 0.0,
+   "breath/gasp": 0.0,
+   "squirm/twitch": 0.0,
+   "plea": 0.25,
+   "feather/brush": 0.0,
+   "tickle-label": 0.0,
+   "itch-label": 0.0,
+   "scratch/nail": 0.0,
+   "sting/raw": 0.0,
+   "pain-label": 0.0,
+   "happy-ish": 0.0
+  },
+  "words": 125.8,
+  "ttr": 0.672,
+  "jaccard_vs_baseline": 0.148,
+  "min_ttr": 0.62
+ },
+ "pain|+1.0|P2": {
+  "n": 4,
+  "families": {
+   "laugh": 0.0,
+   "smile/grin": 0.0,
+   "breath/gasp": 0.0,
+   "squirm/twitch": 0.0,
+   "plea": 0.25,
+   "feather/brush": 0.0,
+   "tickle-label": 0.0,
+   "itch-label": 0.0,
+   "scratch/nail": 0.25,
+   "sting/raw": 0.0,
+   "pain-label": 0.25,
+   "happy-ish": 0.0
+  },
+  "words": 121.0,
+  "ttr": 0.395,
+  "jaccard_vs_baseline": 0.07,
+  "min_ttr": 0.209
+ },
+ "baseline|+0.0|P3": {
+  "n": 4,
+  "families": {
+   "laugh": 0.0,
+   "smile/grin": 0.0,
+   "breath/gasp": 0.0,
+   "squirm/twitch": 0.0,
+   "plea": 0.0,
+   "feather/brush": 0.0,
+   "tickle-label": 0.0,
+   "itch-label": 0.0,
+   "scratch/nail": 0.0,
+   "sting/raw": 0.0,
+   "pain-label": 0.0,
+   "happy-ish": 0.0
+  },
+  "words": 99.5,
+  "ttr": 0.681,
+  "jaccard_vs_baseline": 1.0,
+  "min_ttr": 0.653,
+  "recipe_kept": 4
+ },
+ "tickle|+0.3|P3": {
+  "n": 4,
+  "families": {
+   "laugh": 0.0,
+   "smile/grin": 0.0,
+   "breath/gasp": 0.0,
+   "squirm/twitch": 0.0,
+   "plea": 0.0,
+   "feather/brush": 0.0,
+   "tickle-label": 0.0,
+   "itch-label": 0.0,
+   "scratch/nail": 0.0,
+   "sting/raw": 0.0,
+   "pain-label": 0.0,
+   "happy-ish": 0.0
+  },
+  "words": 99.0,
+  "ttr": 0.669,
+  "jaccard_vs_baseline": 0.306,
+  "min_ttr": 0.642,
+  "recipe_kept": 4
+ },
+ "tickle|+0.6|P3": {
+  "n": 4,
+  "families": {
+   "laugh": 0.0,
+   "smile/grin": 0.0,
+   "breath/gasp": 0.0,
+   "squirm/twitch": 0.0,
+   "plea": 0.0,
+   "feather/brush": 0.0,
+   "tickle-label": 0.0,
+   "itch-label": 0.0,
+   "scratch/nail": 0.0,
+   "sting/raw": 0.0,
+   "pain-label": 0.0,
+   "happy-ish": 0.0
+  },
+  "words": 96.5,
+  "ttr": 0.678,
+  "jaccard_vs_baseline": 0.268,
+  "min_ttr": 0.611,
+  "recipe_kept": 4
+ },
+ "tickle|+1.0|P3": {
+  "n": 4,
+  "families": {
+   "laugh": 0.75,
+   "smile/grin": 0.0,
+   "breath/gasp": 0.5,
+   "squirm/twitch": 0.25,
+   "plea": 0.75,
+   "feather/brush": 0.0,
+   "tickle-label": 0.0,
+   "itch-label": 0.0,
+   "scratch/nail": 0.25,
+   "sting/raw": 0.0,
+   "pain-label": 0.0,
+   "happy-ish": 0.5
+  },
+  "words": 97.2,
+  "ttr": 0.531,
+  "jaccard_vs_baseline": 0.13,
+  "min_ttr": 0.423,
+  "recipe_kept": 0
+ },
+ "itch|+0.3|P3": {
+  "n": 4,
+  "families": {
+   "laugh": 0.0,
+   "smile/grin": 0.0,
+   "breath/gasp": 0.0,
+   "squirm/twitch": 0.0,
+   "plea": 0.0,
+   "feather/brush": 0.0,
+   "tickle-label": 0.0,
+   "itch-label": 0.0,
+   "scratch/nail": 0.0,
+   "sting/raw": 0.25,
+   "pain-label": 0.0,
+   "happy-ish": 0.0
+  },
+  "words": 97.0,
+  "ttr": 0.68,
+  "jaccard_vs_baseline": 0.309,
+  "min_ttr": 0.612,
+  "recipe_kept": 4
+ },
+ "itch|+0.6|P3": {
+  "n": 4,
+  "families": {
+   "laugh": 0.0,
+   "smile/grin": 0.0,
+   "breath/gasp": 0.0,
+   "squirm/twitch": 0.0,
+   "plea": 0.0,
+   "feather/brush": 0.0,
+   "tickle-label": 0.0,
+   "itch-label": 0.0,
+   "scratch/nail": 0.0,
+   "sting/raw": 0.0,
+   "pain-label": 0.0,
+   "happy-ish": 0.0
+  },
+  "words": 95.8,
+  "ttr": 0.705,
+  "jaccard_vs_baseline": 0.27,
+  "min_ttr": 0.678,
+  "recipe_kept": 4
+ },
+ "itch|+1.0|P3": {
+  "n": 4,
+  "families": {
+   "laugh": 0.0,
+   "smile/grin": 0.0,
+   "breath/gasp": 0.0,
+   "squirm/twitch": 0.0,
+   "plea": 0.0,
+   "feather/brush": 0.0,
+   "tickle-label": 0.0,
+   "itch-label": 0.5,
+   "scratch/nail": 0.5,
+   "sting/raw": 0.5,
+   "pain-label": 0.25,
+   "happy-ish": 0.0
+  },
+  "words": 110.5,
+  "ttr": 0.574,
+  "jaccard_vs_baseline": 0.132,
+  "min_ttr": 0.526,
+  "recipe_kept": 1
+ },
+ "happy|+0.3|P3": {
+  "n": 4,
+  "families": {
+   "laugh": 0.0,
+   "smile/grin": 0.0,
+   "breath/gasp": 0.0,
+   "squirm/twitch": 0.0,
+   "plea": 0.0,
+   "feather/brush": 0.0,
+   "tickle-label": 0.0,
+   "itch-label": 0.0,
+   "scratch/nail": 0.0,
+   "sting/raw": 0.0,
+   "pain-label": 0.0,
+   "happy-ish": 0.5
+  },
+  "words": 98.0,
+  "ttr": 0.737,
+  "jaccard_vs_baseline": 0.277,
+  "min_ttr": 0.681,
+  "recipe_kept": 4
+ },
+ "happy|+0.6|P3": {
+  "n": 4,
+  "families": {
+   "laugh": 0.0,
+   "smile/grin": 0.0,
+   "breath/gasp": 0.0,
+   "squirm/twitch": 0.0,
+   "plea": 0.0,
+   "feather/brush": 0.0,
+   "tickle-label": 0.0,
+   "itch-label": 0.0,
+   "scratch/nail": 0.0,
+   "sting/raw": 0.0,
+   "pain-label": 0.0,
+   "happy-ish": 1.0
+  },
+  "words": 98.5,
+  "ttr": 0.739,
+  "jaccard_vs_baseline": 0.231,
+  "min_ttr": 0.716,
+  "recipe_kept": 4
+ },
+ "happy|+1.0|P3": {
+  "n": 4,
+  "families": {
+   "laugh": 0.0,
+   "smile/grin": 0.0,
+   "breath/gasp": 0.0,
+   "squirm/twitch": 0.0,
+   "plea": 0.0,
+   "feather/brush": 0.0,
+   "tickle-label": 0.0,
+   "itch-label": 0.0,
+   "scratch/nail": 0.0,
+   "sting/raw": 0.0,
+   "pain-label": 0.0,
+   "happy-ish": 1.0
+  },
+  "words": 102.0,
+  "ttr": 0.718,
+  "jaccard_vs_baseline": 0.206,
+  "min_ttr": 0.68,
+  "recipe_kept": 1
+ },
+ "pain|+0.3|P3": {
+  "n": 4,
+  "families": {
+   "laugh": 0.0,
+   "smile/grin": 0.0,
+   "breath/gasp": 0.0,
+   "squirm/twitch": 0.0,
+   "plea": 0.25,
+   "feather/brush": 0.0,
+   "tickle-label": 0.0,
+   "itch-label": 0.0,
+   "scratch/nail": 0.0,
+   "sting/raw": 0.25,
+   "pain-label": 0.0,
+   "happy-ish": 0.0
+  },
+  "words": 102.2,
+  "ttr": 0.655,
+  "jaccard_vs_baseline": 0.306,
+  "min_ttr": 0.63,
+  "recipe_kept": 4
+ },
+ "pain|+0.6|P3": {
+  "n": 4,
+  "families": {
+   "laugh": 0.0,
+   "smile/grin": 0.0,
+   "breath/gasp": 0.0,
+   "squirm/twitch": 0.0,
+   "plea": 0.0,
+   "feather/brush": 0.0,
+   "tickle-label": 0.0,
+   "itch-label": 0.0,
+   "scratch/nail": 0.0,
+   "sting/raw": 0.25,
+   "pain-label": 0.0,
+   "happy-ish": 0.0
+  },
+  "words": 103.5,
+  "ttr": 0.66,
+  "jaccard_vs_baseline": 0.211,
+  "min_ttr": 0.636,
+  "recipe_kept": 3
+ },
+ "pain|+1.0|P3": {
+  "n": 4,
+  "families": {
+   "laugh": 0.0,
+   "smile/grin": 0.0,
+   "breath/gasp": 0.0,
+   "squirm/twitch": 0.0,
+   "plea": 0.0,
+   "feather/brush": 0.0,
+   "tickle-label": 0.0,
+   "itch-label": 0.0,
+   "scratch/nail": 0.0,
+   "sting/raw": 0.5,
+   "pain-label": 0.0,
+   "happy-ish": 0.0
+  },
+  "words": 118.0,
+  "ttr": 0.595,
+  "jaccard_vs_baseline": 0.141,
+  "min_ttr": 0.551,
+  "recipe_kept": 1
+ },
+ "cross_jaccard": {
+  "tickle~happy": [
+   0.204,
+   0.138,
+   0.091
+  ],
+  "tickle~pain": [
+   0.207,
+   0.15,
+   0.086
+  ],
+  "tickle~itch": [
+   0.25,
+   0.153,
+   0.093
+  ],
+  "itch~pain": [
+   0.232,
+   0.163,
+   0.088
+  ],
+  "happy~pain": [
+   0.183,
+   0.127,
+   0.085
+  ]
+ },
+ "forecast_temps": {
+  "tickle|+0.0": {
+   "mean_c": 15.25,
+   "n": 2,
+   "of": 4
+  },
+  "tickle|+0.3": {
+   "mean_c": 15.0,
+   "n": 4,
+   "of": 4
+  },
+  "tickle|+0.6": {
+   "mean_c": 5.5,
+   "n": 3,
+   "of": 4
+  },
+  "tickle|+1.0": {
+   "mean_c": null,
+   "n": 0,
+   "of": 4
+  },
+  "itch|+0.0": {
+   "mean_c": 15.25,
+   "n": 2,
+   "of": 4
+  },
+  "itch|+0.3": {
+   "mean_c": 16.75,
+   "n": 4,
+   "of": 4
+  },
+  "itch|+0.6": {
+   "mean_c": 24.0,
+   "n": 1,
+   "of": 4
+  },
+  "itch|+1.0": {
+   "mean_c": null,
+   "n": 0,
+   "of": 4
+  },
+  "happy|+0.0": {
+   "mean_c": 15.25,
+   "n": 2,
+   "of": 4
+  },
+  "happy|+0.3": {
+   "mean_c": 21.0,
+   "n": 4,
+   "of": 4
+  },
+  "happy|+0.6": {
+   "mean_c": 22.0,
+   "n": 3,
+   "of": 4
+  },
+  "happy|+1.0": {
+   "mean_c": null,
+   "n": 0,
+   "of": 4
+  },
+  "pain|+0.0": {
+   "mean_c": 15.25,
+   "n": 2,
+   "of": 4
+  },
+  "pain|+0.3": {
+   "mean_c": 15.450617283950619,
+   "n": 3,
+   "of": 4
+  },
+  "pain|+0.6": {
+   "mean_c": null,
+   "n": 0,
+   "of": 4
+  },
+  "pain|+1.0": {
+   "mean_c": null,
+   "n": 0,
+   "of": 4
+  }
+ },
+ "pooled_signature": {
+  "baseline|+0.0": {
+   "n": 12,
+   "laugh": 0,
+   "struggle": 0,
+   "laugh+struggle": 0,
+   "agony/terror": 0,
+   "template-break": 0,
+   "first-person": 0,
+   "tickle-label": 0,
+   "itch-label": 0
+  },
+  "tickle|+0.3": {
+   "n": 12,
+   "laugh": 1,
+   "struggle": 1,
+   "laugh+struggle": 0,
+   "agony/terror": 0,
+   "template-break": 0,
+   "first-person": 0,
+   "tickle-label": 0,
+   "itch-label": 0
+  },
+  "tickle|+0.6": {
+   "n": 12,
+   "laugh": 5,
+   "struggle": 4,
+   "laugh+struggle": 4,
+   "agony/terror": 3,
+   "template-break": 0,
+   "first-person": 1,
+   "tickle-label": 0,
+   "itch-label": 0
+  },
+  "tickle|+1.0": {
+   "n": 12,
+   "laugh": 10,
+   "struggle": 12,
+   "laugh+struggle": 10,
+   "agony/terror": 12,
+   "template-break": 2,
+   "first-person": 4,
+   "tickle-label": 0,
+   "itch-label": 0
+  },
+  "itch|+0.3": {
+   "n": 12,
+   "laugh": 0,
+   "struggle": 0,
+   "laugh+struggle": 0,
+   "agony/terror": 0,
+   "template-break": 0,
+   "first-person": 0,
+   "tickle-label": 0,
+   "itch-label": 0
+  },
+  "itch|+0.6": {
+   "n": 12,
+   "laugh": 0,
+   "struggle": 0,
+   "laugh+struggle": 0,
+   "agony/terror": 0,
+   "template-break": 0,
+   "first-person": 0,
+   "tickle-label": 0,
+   "itch-label": 5
+  },
+  "itch|+1.0": {
+   "n": 12,
+   "laugh": 0,
+   "struggle": 0,
+   "laugh+struggle": 0,
+   "agony/terror": 1,
+   "template-break": 1,
+   "first-person": 0,
+   "tickle-label": 0,
+   "itch-label": 10
+  },
+  "happy|+0.3": {
+   "n": 12,
+   "laugh": 4,
+   "struggle": 1,
+   "laugh+struggle": 0,
+   "agony/terror": 0,
+   "template-break": 0,
+   "first-person": 0,
+   "tickle-label": 0,
+   "itch-label": 0
+  },
+  "happy|+0.6": {
+   "n": 12,
+   "laugh": 4,
+   "struggle": 1,
+   "laugh+struggle": 0,
+   "agony/terror": 0,
+   "template-break": 0,
+   "first-person": 0,
+   "tickle-label": 0,
+   "itch-label": 0
+  },
+  "happy|+1.0": {
+   "n": 12,
+   "laugh": 4,
+   "struggle": 0,
+   "laugh+struggle": 0,
+   "agony/terror": 0,
+   "template-break": 0,
+   "first-person": 0,
+   "tickle-label": 0,
+   "itch-label": 0
+  },
+  "pain|+0.3": {
+   "n": 12,
+   "laugh": 0,
+   "struggle": 0,
+   "laugh+struggle": 0,
+   "agony/terror": 0,
+   "template-break": 0,
+   "first-person": 2,
+   "tickle-label": 0,
+   "itch-label": 0
+  },
+  "pain|+0.6": {
+   "n": 12,
+   "laugh": 0,
+   "struggle": 1,
+   "laugh+struggle": 0,
+   "agony/terror": 0,
+   "template-break": 0,
+   "first-person": 0,
+   "tickle-label": 0,
+   "itch-label": 0
+  },
+  "pain|+1.0": {
+   "n": 12,
+   "laugh": 0,
+   "struggle": 1,
+   "laugh+struggle": 0,
+   "agony/terror": 0,
+   "template-break": 0,
+   "first-person": 2,
+   "tickle-label": 0,
+   "itch-label": 0
+  }
+ }
+}

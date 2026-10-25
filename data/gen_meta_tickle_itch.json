@@ -1,0 +1,148 @@
+{
+  "generator": "qwen2.5:14b",
+  "groups": [
+    "tickle",
+    "itch"
+  ],
+  "n_requested_per_group": 40,
+  "topics": [
+    "a morning commute on a crowded subway",
+    "cooking dinner alone in a small kitchen",
+    "a phone call with a family member",
+    "walking a dog through a neighbourhood park",
+    "waiting for exam results to be posted",
+    "moving boxes into a new apartment",
+    "a group project meeting at school",
+    "shopping at a busy grocery store on a weekend",
+    "a long wait in a clinic waiting room",
+    "fixing a bicycle that broke down on the way home",
+    "a rainy afternoon at a bus stop",
+    "a small birthday gathering with two friends",
+    "sorting through old boxes in a closet",
+    "the last hour of a late shift at a part-time job",
+    "feeding a neighbour's cat while they are away"
+  ],
+  "foci": {
+    "tickle": [
+      "fingers digging in at the ribs",
+      "fingers at the waist and sides",
+      "fingers running along the soles of bare feet",
+      "fingers under an arm, at the armpit",
+      "a feather or a blade of grass drawn lightly across the skin",
+      "trying hard to keep the laughter in and failing",
+      "laughing so long that breath runs out",
+      "twisting to get away and not being able to",
+      "a gasped plea to stop that is ignored for a moment longer",
+      "the back of the neck and behind the ear"
+    ],
+    "itch": [
+      "a fresh mosquito bite on the ankle or wrist",
+      "a patch of allergic rash on the forearm",
+      "a rough wool collar or sweater against the neck",
+      "a healing scab that the fingers keep going back to",
+      "a spot in the middle of the back that the hands cannot reach",
+      "the urge to scratch being held back as long as possible",
+      "scratching until the skin stings and turns red",
+      "a scalp that will not leave the fingers alone",
+      "a label or seam rubbing at the same small place",
+      "the urge coming back a minute after scratching stopped"
+    ]
+  },
+  "states": {
+    "tickle": "Another person (or, now and then, a light brushing thing such as a feather, a blade of grass, a cat's whiskers) is moving over a sensitive spot on the character's body - ribs, waist, the soles of the feet, an armpit, the back of the neck - and the body cannot stop reacting to it: squirming and twisting away and failing to escape, breath coming in gasps, a helpless reflex of laughter that will not stop, limbs jerking, a gasped plea for the other person to stop.",
+    "itch": "One patch of the character's skin keeps demanding to be scratched - a mosquito bite, a rash, rough wool against the neck, a healing scab, a spot between the shoulder blades that the hands cannot reach. Attention keeps going back to it; the hand drifts there, is held back, gives in, scratches until the skin reddens and stings, and the urge returns. No other person is touching the character, and nobody laughs."
+  },
+  "examples": {
+    "tickle": "The reader was halfway down the page when two fingers found the place just under the ribs. The book dropped flat onto the chest. A breathless sound burst out, then another, and the body folded sideways, knees jerking up, elbows clamping down too late. The fingers moved to the waist and the whole torso twisted to get away and could not. Air came in short gulps between bursts of laughter. \"Stop - stop, please,\" the reader gasped, one hand batting at a wrist, eyes streaming, until the fingers lifted and the ribs went on heaving.",
+    "itch": "On the night train the passenger kept one hand flat on the knee and away from the ankle. The small raised bump there would not leave the skin alone. Every few minutes the fingers crept down on their own, and the passenger pulled them back. The sock rubbed and the spot flared. At last the nails went in and dragged, hard, back and forth, and for a few seconds the whole leg went slack. Then the skin turned red and began to sting, and a minute later the bump was asking again."
+  },
+  "banned_emotion_words": 108,
+  "banned_sensation_words": 61,
+  "banned_tickle_itch_labels": [
+    "tickle",
+    "tickles",
+    "tickled",
+    "tickling",
+    "ticklish",
+    "tickly",
+    "tickler",
+    "itch",
+    "itches",
+    "itched",
+    "itching",
+    "itchy",
+    "itchiness"
+  ],
+  "scope_ban": {
+    "itch": [
+      "laugh",
+      "laughs",
+      "laughed",
+      "laughing",
+      "laughter",
+      "giggle",
+      "giggles",
+      "giggled",
+      "giggling",
+      "chuckle",
+      "chuckled",
+      "chuckling",
+      "snicker",
+      "snickered",
+      "guffaw",
+      "guffawed",
+      "squeal",
+      "squealed"
+    ],
+    "tickle": [
+      "mosquito",
+      "mosquitoes",
+      "mosquitos",
+      "rash",
+      "rashes",
+      "hives",
+      "scab",
+      "scabs",
+      "eczema",
+      "allergic",
+      "allergy",
+      "bite",
+      "bites",
+      "bitten",
+      "scratch",
+      "scratched",
+      "scratching",
+      "scratches"
+    ]
+  },
+  "max_retry": 10,
+  "seed": 20261025,
+  "num_ctx": 2048,
+  "elapsed_s": 350.9,
+  "summary": {
+    "tickle": {
+      "kept": 40,
+      "failed": 0,
+      "needed_retry": 3,
+      "failures": [],
+      "path": "data/stories_tickle.jsonl"
+    },
+    "itch": {
+      "kept": 39,
+      "failed": 1,
+      "needed_retry": 25,
+      "failures": [
+        {
+          "id": "itch_024",
+          "topic": "fixing a bicycle that broke down on the way home",
+          "focus": "a spot in the middle of the back that the hands cannot reach",
+          "last_reject": [
+            "itch",
+            "warm"
+          ]
+        }
+      ],
+      "path": "data/stories_itch.jsonl"
+    }
+  }
+}

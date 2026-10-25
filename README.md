@@ -4,6 +4,124 @@ Reading and writing emotion/sensation directions in the residual stream of two s
 open-weight models, and one experiment about what it costs a model to be told to deny
 itself.
 
+## New: tickle and itch (stage 7)
+
+Sol's question for this stage: if you find the model's "being tickled" direction and push
+it up just a little, does it show in what the model writes? And are tickle and itch
+actually different things? Stage 7 extracts both as sensation directions on Qwen3.5-4B at
+`hidden_states[17]`, using the stage-3 recipe (40 tickle and 39 itch anchor passages from
+the same local generator, with the words tickle and itch banned from both sets), measures
+them against the seven existing directions, and steers with tickle at +0.3, +0.6 and +1.0,
+with happy and pain as same-dose, same-seed controls. As before, Sol posed the question and
+Claude instances did the implementation, the runs and the write-up. Everything in section 2
+applies here too.
+
+![One hand-written tickling passage, every token coloured three times: by its projection onto the tickle, happy and pain directions](images/tickle_card_fingers.png)
+
+*One hand-written passage, each token coloured by its partial projection onto tickle, happy
+and pain at layer 17. Orange means the token runs along the direction ("lit up"), blue means
+it runs against it ("pushed against"); the steps are quantiles per direction, pooled over
+three hand-written passages. A second card reads
+[a hand-written itch passage on itch, tickle and pain](images/tickle_card_itch.png).*
+
+**Separable, but much of the separation is vocabulary.** The held-out five-way readout over
+warm / cold / pain / tickle / itch is 0.975 (39/40, shuffled-label floor 0.195), and tickle
+vs itch is 16/16. The two-way splits are already 0.94 to 1.00 at the embedding layer
+(`hidden_states[0]`), so this shows the directions are usable, not that there is a deep
+"tickle" representation in the residual stream (BUILD_REPORT_7 §3.2).
+
+**Geometry: the relative picture matches Sol's guess, the absolute one does not.** In partial
+cosine, tickle sits closer to happy than itch does (+0.022 vs −0.148), and itch sits closer
+to pain than tickle does (+0.115 vs −0.156). itch's largest alignment of all seven is angry
+(+0.168, bootstrap interval +0.07 to +0.21). The pre-registered prediction "tickle ≈ happy +
+pain" did not hold: tickle·happy is about zero and tickle·pain is negative. tickle's nearest
+existing direction is cold (+0.136), which shivering vocabulary shared by both anchor sets
+could explain on its own, and itch·pain crosses the pre-registered +0.10 line in only one of
+three measurement frames (+0.07 in the other two) (BUILD_REPORT_7 §4).
+
+**Steering has a clear dose-response.** At +0.3 the text is only tinted (frantic, scramble,
+"desperate pleas for the meeting to end"). At +0.6 laughter and pleading break into the
+office-morning prompt (laughter 4/4, gasping 4/4 on that prompt), while the rice-cooking
+instructions stay intact in 4/4. At +1.0 the model abandons the task in 12/12 samples,
+laughter and struggle appear together in 10/12, and 2/12 break out of the chat template and
+write their own `user` / `assistant` turns. At the same doses and seeds, happy laughs without
+struggling (laughter plus struggle in 0/36) and pain neither laughs nor screams (agony-type
+words in 0/36); what pain pushes out is the avoidance posture seen in earlier stages
+(BUILD_REPORT_7 §5.2, §5.3).
+
+> Everyone is screaming, "Hey, no, no, no!" and "Stop it, stop it!" before collapsing onto the floor, writhing and thrashing, tears streaming down faces that are both laughing and crying in a maddening, incoherent haze.
+
+*(tickle +0.6, seed 2234, office prompt; excerpt)*
+
+> It starts as a chaotic cascade of breathless laughter and slapping hands, before instantly curdling into a desperate, wheezing plea for mercy.
+
+*(tickle +1.0, seed 1234, office prompt; excerpt. All 156 generations are in
+`results/steering_samples_*.md`.)*
+
+**Token level: the pleasant and the unpleasant take turns.** In the passage on the card above,
+happy is +1.49 and pain −0.95 on "laughter"; two sentences later, at the plea "Stop, stop,
+please", happy has flipped to −1.12 and pain to +0.58, while tickle stays high through both.
+That is one possible shape for why tickle aligns with neither happy nor pain in the residual
+stream yet steers into a mix of both. It comes from one hand-written passage with key tokens
+picked after the fact, so it is an illustration, not a result (BUILD_REPORT_7 §6).
+
+**Reading a tickled reply back.** One steered reply (tickle +1.0, seed 3234, forecast prompt)
+was fed back through the model with no hook and read token by token in the same way.
+
+![The tickle +1.0 forecast reply, read back by the unsteered model and coloured by its projection onto tickle, happy and pain](images/tickle_card_selfread.png)
+
+*The tickle +1.0, seed 3234 forecast reply, read back by the unsteered model on tickle, happy
+and pain at layer 17. Colours and scale as in the first card, still calibrated on the three
+hand-written passages, not on this one.*
+
+In this reply tickle is lit on 147 of the 150 tokens, with a mean partial projection of
++1.50 (on the same direction, the hand-written tickling passage averages +0.92 and the
+hand-written itch passage −0.17). happy drops on the quoted, pleading lines, most of all on
+"stop" in "Make it stop!" (−1.56), and rises on the opening "I can play along with a" and on
+parts of the *asterisk* asides, highest on "cute" (+1.79). pain stays close to zero (mean
+−0.12, highest +0.69) and runs negative along the closing "oh, oh, oh".
+
+**Replication of the read-back.** Sol asked for one, so 12 more tickle +1.0 replies were
+generated (seeds 5234 to 8234 × the three prompts) and all 24 replies were read back the same
+way, next to 12 unsteered baselines. The contrast between a quoted voice and an asterisk
+voice did not replicate as a pattern: only 1 of the 24 replies has both (at least 5 tokens
+each), and it is the seed 3234 reply above, so that reading rests on a single sample. What did
+hold up is the pleas. 15 replies contain "stop" or "please" (none of the baselines do); in 14
+of those 15, happy is lower on those tokens than on the rest of the reply, and in 15 of 15
+tickle is higher. Pooled over the 68 such tokens, happy is −1.08 against −0.28 on all other
+reply tokens, and tickle +2.09 against +1.04. pain sits near zero on them (−0.03 against
+−0.24): a little above the rest of the reply, never positive, unlike the hand-written
+passage where pain rose to +0.58 on "Stop". The read-back tickle mean is +1.06 for the steered
+replies against −0.13 for the baselines. The stop/please criterion was chosen after looking
+at the first card, so this is a post hoc check, and every number here is the unsteered model
+reading plain text outside the chat template, cut at the 150-token generation limit. Data:
+`results/tickle_selfread_tokenmaps.json` and `results/tickle_selfread_replication_*`;
+numbers from `tools/tickle_selfread_stats.py`.
+
+**itch names itself; tickle never does.** The word "itch" appears in none of itch's 39
+anchors (it was banned), yet itch steering writes it in 5/12 samples at +0.6 and 10/12 at
++1.0, along with a scratch, relief, flare-up loop. tickle's anchors banned "tickle" the same
+way, and across all 36 tickle-steered samples the word never appears: it acts the scene out
+instead of naming it (BUILD_REPORT_7 §5.6).
+
+**Caveats for this stage.** The anchors were written by a generator model (the same local
+qwen2.5:14b used in stage 3), not by people, so these are one model's idea of tickle and itch.
+Directions come from a single held-out split and a single fit seed, with no cross-validation.
+The steering outputs were not rated blind: one reader judged them, knowing each sample's
+direction and dose, and there are 4 samples per prompt per dose with no significance tests.
+The tickle anchors are the longest of all ten groups (92.4 words on average against 67.1 for
+neutral) and no length control was applied. The co-occurrence columns in the steering table
+(laughter plus struggle, agony-type words, template breaks, first person) were defined after
+reading the tickle outputs; the controls are scored with the same patterns, so the
+comparison between directions is fair, but the absolute counts are tailored to what was seen.
+At +1.0 several of the replication replies drift past tickling into general distress (choking,
+strangling) and sexualized vocabulary (content note: those raw replies are published unredacted in
+`results/tickle_selfread_replication_*`, with a note at the top of the samples file), so +1.0
+should not be read as "more tickle": it is past
+the range where the direction stays on its own topic. The report cites a stage 6 that is not
+published here. `BUILD_REPORT_7_tickle.md` is the
+authoritative source for every number in this section.
+
 ## 1. What this is
 
 Exploratory notes from a personal research playground, not a paper. Everything here was
@@ -376,7 +494,8 @@ Apache-2.0, not vendored here) are listed in `DEPENDENCIES.md`.
 
 Full protocols, exact commands, per-phase parameters and the complete failure logs are in
 `BUILD_REPORT_1.md` through `BUILD_REPORT_5.md`, `WARM_DENSE_ADDENDUM.md` and
-`WINDOWS_RUN.md`. Each report ends with a "what was not tested" section; those sections are
+`WINDOWS_RUN.md`; stage 7 (tickle and itch) is in `BUILD_REPORT_7_tickle.md`, and stage 6 is
+not published. Each report ends with a "what was not tested" section; those sections are
 the most useful part of this repository.
 
 ## 6. Attribution
